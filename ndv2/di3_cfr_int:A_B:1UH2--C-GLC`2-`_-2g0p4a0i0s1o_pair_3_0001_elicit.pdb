@@ -1,0 +1,114 @@
+HETATM    1  C1  GLC A   2      37.432  22.098  49.113  1.00 26.70           C  
+HETATM    2  C2  GLC A   2      37.719  21.071  48.014  1.00 25.02           C  
+HETATM    3  O2  GLC A   2      38.934  20.389  48.293  1.00 25.52           O  
+HETATM    4  C3  GLC A   2      37.826  21.799  46.675  1.00 22.87           C  
+HETATM    5  O3  GLC A   2      38.038  20.867  45.627  1.00 21.67           O  
+HETATM    6  C4  GLC A   2      36.550  22.602  46.402  1.00 22.43           C  
+HETATM    7  O4  GLC A   2      36.748  23.403  45.228  1.00 21.77           O  
+HETATM    8  C5  GLC A   2      36.224  23.521  47.589  1.00 22.31           C  
+HETATM    9  O5  GLC A   2      36.207  22.767  48.821  1.00 22.68           O  
+HETATM   10  C6  GLC A   2      34.871  24.192  47.455  1.00 23.15           C  
+HETATM   11  O6  GLC A   2      34.718  25.221  48.421  1.00 23.09           O  
+HETATM   12  C1  GLC A   3      36.035  23.000  44.094  1.00 22.21           C  
+HETATM   13  C2  GLC A   3      36.953  23.066  42.873  1.00 21.87           C  
+HETATM   14  O2  GLC A   3      38.123  22.301  43.132  1.00 17.93           O  
+HETATM   15  C3  GLC A   3      37.333  24.529  42.597  1.00 23.11           C  
+HETATM   16  O3  GLC A   3      38.122  24.619  41.415  1.00 23.84           O  
+HETATM   17  C4  GLC A   3      36.066  25.391  42.448  1.00 24.71           C  
+HETATM   18  O4  GLC A   3      36.441  26.777  42.346  1.00 28.93           O  
+HETATM   19  C5  GLC A   3      35.151  25.207  43.666  1.00 23.22           C  
+HETATM   20  O5  GLC A   3      34.876  23.804  43.881  1.00 21.40           O  
+HETATM   21  C6  GLC A   3      33.813  25.911  43.516  1.00 23.17           C  
+HETATM   22  O6  GLC A   3      33.010  25.283  42.528  1.00 23.03           O  
+ATOM     23  CG  TRP B  51      36.071  19.160  50.831  1.00 15.48           C  
+ATOM     24  CD1 TRP B  51      34.858  19.767  50.639  1.00 15.25           C  
+ATOM     25  CD2 TRP B  51      36.620  19.729  52.023  1.00 16.54           C  
+ATOM     26  CE2 TRP B  51      35.688  20.675  52.504  1.00 17.47           C  
+ATOM     27  CE3 TRP B  51      37.812  19.527  52.734  1.00 17.55           C  
+ATOM     28  NE1 TRP B  51      34.622  20.680  51.640  1.00 16.42           N  
+ATOM     29  CZ2 TRP B  51      35.910  21.420  53.666  1.00 17.64           C  
+ATOM     30  CZ3 TRP B  51      38.032  20.267  53.890  1.00 18.41           C  
+ATOM     31  CH2 TRP B  51      37.082  21.202  54.345  1.00 17.87           C  
+ATOM     32  CG  TYR B  89      34.720  19.268  45.619  1.00 12.47           C  
+ATOM     33  CD1 TYR B  89      34.231  19.633  46.872  1.00 12.30           C  
+ATOM     34  CD2 TYR B  89      34.160  19.872  44.493  1.00 11.52           C  
+ATOM     35  CE1 TYR B  89      33.214  20.585  47.001  1.00 12.64           C  
+ATOM     36  CE2 TYR B  89      33.147  20.821  44.613  1.00 11.10           C  
+ATOM     37  CZ  TYR B  89      32.683  21.174  45.867  1.00 12.91           C  
+ATOM     38  OH  TYR B  89      31.699  22.136  45.987  1.00 13.40           O  
+ATOM     39  N   GLY B 116      40.787  22.668  41.242  1.00 15.76           N  
+ATOM     40  CA  GLY B 116      40.527  21.785  40.112  1.00 15.02           C  
+ATOM     41  C   GLY B 116      40.413  20.306  40.470  1.00 13.62           C  
+ATOM     42  O   GLY B 116      40.888  19.438  39.735  1.00 12.32           O  
+ATOM     43  CG  ASP B 117      40.288  18.727  44.396  1.00 14.33           C  
+ATOM     44  OD1 ASP B 117      40.094  19.309  45.481  1.00 13.91           O  
+ATOM     45  OD2 ASP B 117      41.397  18.253  44.053  1.00 12.09           O1-
+ATOM     46  N   GLY B 117      39.785  20.019  41.604  1.00 11.78           N  
+ATOM     47  CA  GLY B 117      39.534  18.633  41.987  1.00 12.61           C  
+ATOM     48  C   GLY B 117      38.391  18.130  41.103  1.00 12.36           C  
+ATOM     49  O   GLY B 117      37.702  18.932  40.468  1.00 10.40           O  
+ATOM     50  CG  TYR B 119      33.191  19.190  40.210  1.00 14.58           C  
+ATOM     51  CD1 TYR B 119      32.773  20.151  41.127  1.00 10.20           C  
+ATOM     52  CD2 TYR B 119      34.168  19.545  39.273  1.00 13.38           C  
+ATOM     53  CE1 TYR B 119      33.308  21.439  41.114  1.00 14.38           C  
+ATOM     54  CE2 TYR B 119      34.714  20.832  39.254  1.00 15.48           C  
+ATOM     55  CZ  TYR B 119      34.275  21.772  40.176  1.00 14.21           C  
+ATOM     56  OH  TYR B 119      34.793  23.043  40.157  1.00 14.55           O  
+TER   
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7    8
+CONECT    7    6   12
+CONECT    8    6    9   10
+CONECT    9    1    8
+CONECT   10    8   11
+CONECT   11   10
+CONECT   12    7   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   12   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   24   25
+CONECT   24   23   28
+CONECT   25   23   26   27
+CONECT   26   25   28   29
+CONECT   27   25   30
+CONECT   28   24   26
+CONECT   29   26   31
+CONECT   30   27   31
+CONECT   31   29   30
+CONECT   32   33   34
+CONECT   33   32   35
+CONECT   34   32   36
+CONECT   35   33   37
+CONECT   36   34   37
+CONECT   37   35   36   38
+CONECT   38   37
+CONECT   39   40
+CONECT   40   39   41
+CONECT   41   40   42   46
+CONECT   42   41
+CONECT   43   44   45
+CONECT   44   43
+CONECT   45   43
+CONECT   46   41   47
+CONECT   47   46   48
+CONECT   48   47   49
+CONECT   49   48
+CONECT   50   51   52
+CONECT   51   50   53
+CONECT   52   50   54
+CONECT   53   51   55
+CONECT   54   52   55
+CONECT   55   53   54   56
+CONECT   56   55
+END

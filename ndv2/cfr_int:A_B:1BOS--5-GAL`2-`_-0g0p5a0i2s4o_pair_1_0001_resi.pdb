@@ -1,0 +1,41 @@
+HETATM    1  C1  GAL A   2     -10.009  38.030  53.670  1.00 30.27      FB   C  
+HETATM    2  O1  GAL A   2     -10.424  39.388  53.515  1.00  0.00      FB   O  
+HETATM    3  C2  GAL A   2     -11.035  37.104  53.012  1.00 28.78      FB   C  
+HETATM    4  O2  GAL A   2     -12.312  37.240  53.628  1.00 28.16      FB   O  
+HETATM    5  C3  GAL A   2     -10.545  35.667  53.135  1.00 27.33      FB   C  
+HETATM    6  O3  GAL A   2     -11.510  34.776  52.596  1.00 26.44      FB   O  
+HETATM    7  C4  GAL A   2      -9.222  35.548  52.388  1.00 26.77      FB   C  
+HETATM    8  O4  GAL A   2      -9.411  35.855  50.973  1.00 27.28      FB   O  
+HETATM    9  C5  GAL A   2      -8.212  36.524  53.026  1.00 23.77      FB   C  
+HETATM   10  O5  GAL A   2      -8.726  37.882  53.034  1.00 25.91      FB   O  
+HETATM   11  C6  GAL A   2      -6.894  36.553  52.258  1.00 20.79      FB   C  
+HETATM   12  O6  GAL A   2      -5.862  37.208  52.978  1.00 15.99      FB   O  
+ATOM     13  N   THR B4154      -3.040  34.103  55.117  1.00 20.28      P    N  
+ATOM     14  CA  THR B4154      -4.364  34.726  55.096  1.00 21.30      P    C  
+ATOM     15  C   THR B4154      -4.515  35.748  56.225  1.00 24.17      P    C  
+ATOM     16  O   THR B4154      -3.937  35.698  57.325  1.00 23.93      P    O  
+ATOM     17  CB  THR B4154      -5.489  33.653  55.220  1.00 21.52      P    C  
+ATOM     18  CG2 THR B4154      -5.450  32.915  56.546  1.00 19.02      P    C  
+ATOM     19  OG1 THR B4154      -6.756  34.312  55.074  1.00 26.10      P    O  
+ATOM     20  N   ASN B4155      -5.320  36.774  55.926  1.00 26.71      P    N  
+ATOM     21  CA  ASN B4155      -5.713  37.755  56.946  1.00 27.13      P    C  
+ATOM     22  C   ASN B4155      -6.846  37.214  57.774  1.00 26.54      P    C  
+ATOM     23  O   ASN B4155      -7.042  37.704  58.890  1.00 28.15      P    O  
+ATOM     24  CB  ASN B4155      -6.202  39.083  56.384  1.00 27.97      P    C  
+ATOM     25  CG  ASN B4155      -5.047  39.891  55.796  1.00 28.36      P    C  
+ATOM     26  ND2 ASN B4155      -3.984  40.224  56.524  1.00 26.45      P    N  
+ATOM     27  OD1 ASN B4155      -5.049  40.236  54.617  1.00 31.73      P    O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,34 @@
+HETATM    1  C1  GAL A   2     -25.228   0.140  23.569  1.00 37.44      MB   C  
+HETATM    2  O1  GAL A   2     -26.549   0.333  23.058  1.00  0.00      MB   O  
+HETATM    3  C2  GAL A   2     -24.293   1.186  22.969  1.00 35.81      MB   C  
+HETATM    4  O2  GAL A   2     -24.246   1.029  21.557  1.00 35.18      MB   O  
+HETATM    5  C3  GAL A   2     -22.896   1.020  23.558  1.00 33.94      MB   C  
+HETATM    6  O3  GAL A   2     -22.018   1.986  23.007  1.00 33.21      MB   O  
+HETATM    7  C4  GAL A   2     -22.965   1.152  25.083  1.00 32.47      MB   C  
+HETATM    8  O4  GAL A   2     -23.370   2.499  25.461  1.00 30.58      MB   O  
+HETATM    9  C5  GAL A   2     -23.963   0.104  25.622  1.00 33.51      MB   C  
+HETATM   10  O5  GAL A   2     -25.266   0.264  24.999  1.00 37.69      MB   O  
+HETATM   11  C6  GAL A   2     -24.172   0.177  27.127  1.00 30.24      MB   C  
+HETATM   12  O6  GAL A   2     -24.924  -0.930  27.610  1.00 27.83      MB   O  
+ATOM     13  N   ASN B4455     -23.832  -3.737  27.300  1.00 30.39      S    N  
+ATOM     14  CA  ASN B4455     -24.573  -4.612  26.380  1.00 31.31      S    C  
+ATOM     15  C   ASN B4455     -23.789  -4.855  25.089  1.00 31.56      S    C  
+ATOM     16  O   ASN B4455     -24.063  -5.841  24.390  1.00 33.16      S    O  
+ATOM     17  CB  ASN B4455     -25.905  -4.055  25.952  1.00 31.92      S    C  
+ATOM     18  CG  ASN B4455     -26.894  -4.088  27.117  1.00 35.82      S    C  
+ATOM     19  ND2 ASN B4455     -27.222  -5.252  27.680  1.00 34.63      S    N  
+ATOM     20  OD1 ASN B4455     -27.412  -3.047  27.554  1.00 38.73      S    O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

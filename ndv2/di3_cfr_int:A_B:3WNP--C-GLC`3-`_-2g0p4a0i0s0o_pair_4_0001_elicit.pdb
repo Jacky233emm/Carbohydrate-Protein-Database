@@ -1,0 +1,74 @@
+HETATM    1  C1  GLC A   3      15.228  64.770  38.561  1.00 59.77           C  
+HETATM    2  C2  GLC A   3      13.933  64.444  37.820  1.00 59.42           C  
+HETATM    3  O2  GLC A   3      14.255  64.352  36.441  1.00 61.19           O  
+HETATM    4  C3  GLC A   3      12.858  65.527  38.080  1.00 58.59           C  
+HETATM    5  O3  GLC A   3      11.608  65.057  37.632  1.00 58.83           O  
+HETATM    6  C4  GLC A   3      12.802  65.957  39.554  1.00 54.16           C  
+HETATM    7  O4  GLC A   3      11.991  67.086  39.714  1.00 53.06           O  
+HETATM    8  C5  GLC A   3      14.208  66.282  40.023  1.00 52.82           C  
+HETATM    9  O5  GLC A   3      14.865  65.048  39.901  1.00 57.66           O  
+HETATM   10  C6  GLC A   3      14.325  66.778  41.451  1.00 51.55           C  
+HETATM   11  O6  GLC A   3      13.399  66.066  42.235  1.00 60.79           O  
+HETATM   12  C1  GLC A   4      13.273  66.615  43.578  1.00 65.43           C  
+HETATM   13  C2  GLC A   4      12.428  65.630  44.384  1.00 69.30           C  
+HETATM   14  O2  GLC A   4      13.062  64.364  44.462  1.00 64.95           O  
+HETATM   15  C3  GLC A   4      11.029  65.557  43.748  1.00 73.62           C  
+HETATM   16  O3  GLC A   4      10.190  64.690  44.499  1.00 70.83           O  
+HETATM   17  C4  GLC A   4      10.419  66.980  43.620  1.00 74.75           C  
+HETATM   18  O4  GLC A   4       9.213  66.897  42.878  1.00 77.63           O  
+HETATM   19  C5  GLC A   4      11.391  68.050  43.045  1.00 69.47           C  
+HETATM   20  O5  GLC A   4      12.681  67.911  43.658  1.00 68.19           O  
+HETATM   21  C6  GLC A   4      10.900  69.516  43.158  1.00 65.89           C  
+HETATM   22  O6  GLC A   4      11.144  70.344  42.024  1.00 58.52           O  
+ATOM     23  CG  ASP B 512       6.239  66.080  45.617  1.00 63.16           C  
+ATOM     24  OD1 ASP B 512       5.444  66.719  46.344  1.00 64.21           O  
+ATOM     25  OD2 ASP B 512       6.455  66.412  44.426  1.00 68.99           O1-
+ATOM     26  CG  HIS B 579      12.387  60.476  43.338  1.00 54.58           C  
+ATOM     27  CD2 HIS B 579      11.080  60.674  43.037  1.00 55.95           C  
+ATOM     28  ND1 HIS B 579      13.095  61.404  42.605  1.00 53.79           N  
+ATOM     29  CE1 HIS B 579      12.254  62.131  41.894  1.00 57.93           C  
+ATOM     30  NE2 HIS B 579      11.026  61.709  42.136  1.00 56.74           N  
+ATOM     31  CD  GLU B 580      12.714  60.762  38.992  1.00 55.80           C  
+ATOM     32  OE1 GLU B 580      12.094  59.946  39.699  1.00 48.11           O  
+ATOM     33  OE2 GLU B 580      12.128  61.641  38.309  1.00 71.40           O1-
+ATOM     34  CG  ASN B 584      13.413  61.704  47.392  1.00 54.41           C  
+ATOM     35  ND2 ASN B 584      12.586  62.507  46.734  1.00 53.68           N  
+ATOM     36  OD1 ASN B 584      13.028  60.935  48.298  1.00 50.35           O  
+TER   
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7    8
+CONECT    7    6
+CONECT    8    6    9   10
+CONECT    9    1    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   12   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   24   25
+CONECT   24   23
+CONECT   25   23
+CONECT   26   27   28
+CONECT   27   26   30
+CONECT   28   26   29
+CONECT   29   28   30
+CONECT   30   27   29
+CONECT   31   32   33
+CONECT   32   31
+CONECT   33   31
+CONECT   34   35   36
+CONECT   35   34
+CONECT   36   34
+END

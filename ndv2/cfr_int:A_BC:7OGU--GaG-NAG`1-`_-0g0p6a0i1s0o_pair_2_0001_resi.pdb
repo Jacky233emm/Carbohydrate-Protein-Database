@@ -1,0 +1,46 @@
+HETATM    1  C1  NAG A   1     -44.533   2.469 -92.578  1.00 47.08      CA   C  
+HETATM    2  O1  NAG A   1     -45.475   3.490 -92.240  1.00  0.00      CA   O  
+HETATM    3  C2  NAG A   1     -43.247   2.661 -91.752  1.00 47.73      CA   C  
+HETATM    4  N2  NAG A   1     -42.562   3.919 -91.954  1.00 47.15      CA   N  
+HETATM    5  C3  NAG A   1     -42.214   1.578 -92.011  1.00 49.54      CA   C  
+HETATM    6  O3  NAG A   1     -41.113   1.761 -91.124  1.00 47.02      CA   O  
+HETATM    7  C4  NAG A   1     -42.827   0.224 -91.713  1.00 52.95      CA   C  
+HETATM    8  O4  NAG A   1     -41.851  -0.812 -91.953  1.00 61.74      CA   O  
+HETATM    9  C5  NAG A   1     -44.108   0.052 -92.533  1.00 50.37      CA   C  
+HETATM   10  O5  NAG A   1     -45.013   1.144 -92.292  1.00 48.72      CA   O  
+HETATM   11  C6  NAG A   1     -44.827  -1.234 -92.128  1.00 48.30      CA   C  
+HETATM   12  O6  NAG A   1     -45.149  -1.191 -90.731  1.00 47.27      CA   O  
+HETATM   13  C7  NAG A   1     -42.778   4.946 -91.146  1.00 46.58      CA   C  
+HETATM   14  O7  NAG A   1     -43.556   4.871 -90.219  1.00 45.13      CA   O  
+HETATM   15  C8  NAG A   1     -41.986   6.186 -91.425  1.00 46.89      CA   C  
+ATOM     16  N   SER B 162     -47.289   8.916 -90.441  1.00 50.32      G    N  
+ATOM     17  CA  SER B 162     -47.065   8.008 -89.293  1.00 51.32      G    C  
+ATOM     18  C   SER B 162     -47.335   8.747 -87.984  1.00 52.67      G    C  
+ATOM     19  O   SER B 162     -46.590   9.688 -87.656  1.00 53.35      G    O  
+ATOM     20  CB  SER B 162     -45.709   7.402 -89.327  1.00 51.68      G    C  
+ATOM     21  OG  SER B 162     -45.549   6.534 -88.220  1.00 55.94      G    O  
+ATOM     22  N   ASN B 186     -50.048   4.907 -91.194  1.00 42.86      G    N  
+ATOM     23  CA  ASN B 186     -49.587   4.265 -89.940  1.00 44.31      G    C  
+ATOM     24  C   ASN B 186     -50.212   5.016 -88.766  1.00 44.81      G    C  
+ATOM     25  O   ASN B 186     -49.768   6.139 -88.487  1.00 43.74      G    O  
+ATOM     26  CB  ASN B 186     -48.062   4.284 -89.839  1.00 45.10      G    C  
+ATOM     27  CG  ASN B 186     -47.343   3.239 -90.671  1.00 44.22      G    C  
+ATOM     28  ND2 ASN B 186     -46.079   3.010 -90.348  1.00 44.17      G    N  
+ATOM     29  OD1 ASN B 186     -47.907   2.646 -91.587  1.00 43.58      G    O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

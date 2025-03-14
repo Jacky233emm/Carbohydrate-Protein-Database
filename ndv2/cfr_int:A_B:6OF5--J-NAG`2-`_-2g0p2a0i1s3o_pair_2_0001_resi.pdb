@@ -1,0 +1,42 @@
+HETATM    1  C1  NAG A   2      -2.224  41.293  12.620  1.00 44.19           C  
+HETATM    2  O1  NAG A   2      -3.483  41.584  12.009  1.00  0.00           O  
+HETATM    3  C2  NAG A   2      -1.268  42.467  12.402  1.00 42.93           C  
+HETATM    4  N2  NAG A   2      -1.048  42.702  10.984  1.00 47.23           N  
+HETATM    5  C3  NAG A   2       0.062  42.210  13.095  1.00 55.61           C  
+HETATM    6  O3  NAG A   2       0.866  43.382  13.006  1.00 55.70           O  
+HETATM    7  C4  NAG A   2      -0.126  41.800  14.551  1.00 56.47           C  
+HETATM    8  O4  NAG A   2       1.119  41.287  15.017  1.00 64.73           O  
+HETATM    9  C5  NAG A   2      -1.159  40.680  14.658  1.00 51.77           C  
+HETATM   10  O5  NAG A   2      -2.377  41.057  13.998  1.00 48.43           O  
+HETATM   11  C6  NAG A   2      -1.530  40.346  16.081  1.00 45.96           C  
+HETATM   12  O6  NAG A   2      -2.238  39.116  16.132  1.00 56.83           O  
+HETATM   13  C7  NAG A   2      -1.226  43.892  10.400  1.00 45.74           C  
+HETATM   14  O7  NAG A   2      -1.561  44.889  11.037  1.00 44.93           O  
+HETATM   15  C8  NAG A   2      -1.009  43.931   8.920  1.00 37.25           C  
+ATOM     16  N   HIS B 399      -8.632  44.354   7.548  1.00 28.03           N  
+ATOM     17  CA  HIS B 399      -7.383  44.319   6.798  1.00 31.34           C  
+ATOM     18  C   HIS B 399      -7.568  43.669   5.428  1.00 30.65           C  
+ATOM     19  O   HIS B 399      -8.282  42.670   5.290  1.00 28.96           O  
+ATOM     20  CB  HIS B 399      -6.296  43.555   7.576  1.00 33.49           C  
+ATOM     21  CG  HIS B 399      -5.738  44.305   8.751  1.00 40.50           C  
+ATOM     22  CD2 HIS B 399      -4.529  44.892   8.939  1.00 34.71           C  
+ATOM     23  ND1 HIS B 399      -6.450  44.508   9.918  1.00 38.17           N  
+ATOM     24  CE1 HIS B 399      -5.707  45.193  10.769  1.00 35.83           C  
+ATOM     25  NE2 HIS B 399      -4.539  45.439  10.199  1.00 38.06           N  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

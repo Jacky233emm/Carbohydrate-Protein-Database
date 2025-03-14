@@ -1,0 +1,51 @@
+ATOM      1  N   THR C  61      38.516  -1.160  24.373  1.00 17.02      G    N  
+ATOM      2  CA  THR C  61      39.629  -0.697  25.233  1.00 17.23      G    C  
+ATOM      3  C   THR C  61      39.066  -0.290  26.598  1.00 17.32      G    C  
+ATOM      4  O   THR C  61      37.892   0.124  26.679  1.00 17.91      G    O  
+ATOM      5  CB  THR C  61      40.422   0.439  24.565  1.00 17.43      G    C  
+ATOM      6  CG2 THR C  61      41.004   0.044  23.231  1.00 17.90      G    C  
+ATOM      7  OG1 THR C  61      39.548   1.563  24.418  1.00 17.91      G    O  
+TER   
+HETATM    8  C1  SIA A 301      43.584   3.741  22.954  1.00 30.31      JA   C  
+HETATM    9  O1A SIA A 301      42.908   4.080  21.963  1.00 35.35      JA   O  
+HETATM   10  O1B SIA A 301      44.052   2.589  23.074  1.00 34.00      JA   O  
+HETATM   11  C2  SIA A 301      43.872   4.719  24.068  1.00 27.75      JA   C  
+HETATM   12  O2  SIA A 301      45.202   5.237  23.915  1.00 29.23      JA   O  
+HETATM   13  C3  SIA A 301      42.870   5.866  24.161  1.00 25.64      JA   C  
+HETATM   14  C4  SIA A 301      41.483   5.413  24.649  1.00 23.80      JA   C  
+HETATM   15  O4  SIA A 301      40.677   6.584  24.884  1.00 25.42      JA   O  
+HETATM   16  C5  SIA A 301      41.553   4.549  25.910  1.00 22.20      JA   C  
+HETATM   17  N5  SIA A 301      40.249   3.977  26.213  1.00 19.67      JA   N  
+HETATM   18  C6  SIA A 301      42.545   3.416  25.620  1.00 23.10      JA   C  
+HETATM   19  O6  SIA A 301      43.816   3.987  25.280  1.00 25.18      JA   O  
+HETATM   20  C7  SIA A 301      42.806   2.454  26.781  1.00 23.87      JA   C  
+HETATM   21  O7  SIA A 301      43.110   3.304  27.871  1.00 27.15      JA   O  
+HETATM   22  C8  SIA A 301      43.950   1.433  26.505  1.00 24.05      JA   C  
+HETATM   23  O8  SIA A 301      43.847   0.909  25.202  1.00 24.37      JA   O  
+HETATM   24  C9  SIA A 301      43.926   0.112  27.283  1.00 27.96      JA   C  
+HETATM   25  O9  SIA A 301      42.877  -0.810  26.822  1.00 28.37      JA   O  
+HETATM   26  C10 SIA A 301      39.443   4.444  27.162  1.00 18.65      JA   C  
+HETATM   27  O10 SIA A 301      39.668   5.439  27.847  1.00 18.98      JA   O  
+HETATM   28  C11 SIA A 301      38.207   3.611  27.402  1.00 17.78      JA   C  
+CONECT    8    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   13   19
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16   26
+CONECT   18   16   19   20
+CONECT   19   11   18
+CONECT   20   18   21   22
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24
+CONECT   26   17   27   28
+CONECT   27   26
+CONECT   28   26
+END

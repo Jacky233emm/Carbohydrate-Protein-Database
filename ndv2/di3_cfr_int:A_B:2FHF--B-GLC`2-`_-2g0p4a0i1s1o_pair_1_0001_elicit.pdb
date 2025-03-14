@@ -1,0 +1,78 @@
+HETATM    1  C1  GLC A   2      33.034  27.478  95.790  1.00 27.71           C  
+HETATM    2  C2  GLC A   2      33.142  28.854  95.107  1.00 29.45           C  
+HETATM    3  O2  GLC A   2      34.442  29.387  95.292  1.00 26.84           O  
+HETATM    4  C3  GLC A   2      32.106  29.831  95.667  1.00 30.50           C  
+HETATM    5  O3  GLC A   2      32.124  31.037  94.916  1.00 29.97           O  
+HETATM    6  C4  GLC A   2      30.703  29.226  95.618  1.00 30.45           C  
+HETATM    7  O4  GLC A   2      29.792  30.127  96.276  1.00 30.10           O  
+HETATM    8  C5  GLC A   2      30.717  27.879  96.348  1.00 31.26           C  
+HETATM    9  O5  GLC A   2      31.690  27.000  95.746  1.00 31.03           O  
+HETATM   10  C6  GLC A   2      29.382  27.165  96.315  1.00 33.87           C  
+HETATM   11  O6  GLC A   2      28.566  27.562  97.406  1.00 35.90           O  
+HETATM   12  C1  GLC A   3      28.711  30.597  95.520  1.00 30.70           C  
+HETATM   13  C2  GLC A   3      28.584  32.106  95.719  1.00 30.53           C  
+HETATM   14  O2  GLC A   3      29.815  32.732  95.384  1.00 28.96           O  
+HETATM   15  C3  GLC A   3      28.234  32.408  97.180  1.00 31.37           C  
+HETATM   16  O3  GLC A   3      28.008  33.802  97.340  1.00 27.60           O  
+HETATM   17  C4  GLC A   3      26.982  31.633  97.616  1.00 32.41           C  
+HETATM   18  O4  GLC A   3      26.815  31.780  99.038  1.00 33.27           O  
+HETATM   19  C5  GLC A   3      27.109  30.140  97.274  1.00 32.56           C  
+HETATM   20  O5  GLC A   3      27.487  29.963  95.887  1.00 32.03           O  
+HETATM   21  C6  GLC A   3      25.806  29.391  97.479  1.00 32.69           C  
+HETATM   22  O6  GLC A   3      26.044  28.030  97.808  1.00 34.24           O  
+ATOM     23  N   GLY B 642      23.024  24.682 100.988  1.00 17.26           N  
+ATOM     24  CA  GLY B 642      23.484  24.871  99.612  1.00 18.03           C  
+ATOM     25  C   GLY B 642      23.550  26.357  99.277  1.00 19.23           C  
+ATOM     26  O   GLY B 642      24.307  26.767  98.391  1.00 21.53           O  
+ATOM     27  CD  GLU B 706      29.917  24.107  92.582  1.00 27.16           C  
+ATOM     28  OE1 GLU B 706      30.549  25.050  93.112  1.00 28.34           O  
+ATOM     29  OE2 GLU B 706      28.667  24.054  92.552  1.00 26.77           O1-
+ATOM     30  CG  ASN B 835      34.742  32.799  93.648  1.00 21.33           C  
+ATOM     31  ND2 ASN B 835      34.887  31.502  93.392  1.00 22.83           N  
+ATOM     32  OD1 ASN B 835      34.329  33.222  94.730  1.00 23.48           O  
+ATOM     33  CZ  ARG B 889      31.331  36.109  97.787  1.00 20.89           C  
+ATOM     34  NH1 ARG B 889      31.822  34.930  97.427  1.00 21.97           N1+
+ATOM     35  NH2 ARG B 889      30.133  36.171  98.350  1.00 22.71           N  
+ATOM     36  CG  ASP B 890      27.247  36.156  94.625  1.00 15.42           C  
+ATOM     37  OD1 ASP B 890      26.742  35.758  95.696  1.00 17.14           O  
+ATOM     38  OD2 ASP B 890      26.803  35.838  93.501  1.00 17.16           O1-
+TER   
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7    8
+CONECT    7    6   12
+CONECT    8    6    9   10
+CONECT    9    1    8
+CONECT   10    8   11
+CONECT   11   10
+CONECT   12    7   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   12   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27   28   29
+CONECT   28   27
+CONECT   29   27
+CONECT   30   31   32
+CONECT   31   30
+CONECT   32   30
+CONECT   33   34   35
+CONECT   34   33
+CONECT   35   33
+CONECT   36   37   38
+CONECT   37   36
+CONECT   38   36
+END

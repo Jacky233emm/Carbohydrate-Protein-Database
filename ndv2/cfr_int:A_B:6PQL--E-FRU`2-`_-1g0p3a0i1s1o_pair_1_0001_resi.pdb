@@ -1,0 +1,35 @@
+HETATM    1  C1  Fru A   2       9.832   1.577 -15.200  1.00 32.81           C  
+HETATM    2  O1  Fru A   2       8.651   1.525 -14.389  1.00 33.25           O  
+HETATM    3  C2  Fru A   2      10.214   3.019 -15.538  1.00 32.53           C  
+HETATM    4  O2  Fru A   2      10.146   3.903 -14.407  1.00 31.96           O  
+HETATM    5  C3  Fru A   2       9.300   3.567 -16.629  1.00 32.78           C  
+HETATM    6  O3  Fru A   2       8.247   4.376 -16.090  1.00 33.06           O  
+HETATM    7  C4  Fru A   2      10.200   4.375 -17.542  1.00 32.88           C  
+HETATM    8  O4  Fru A   2       9.824   4.163 -18.905  1.00 33.48           O  
+HETATM    9  C5  Fru A   2      11.590   3.817 -17.293  1.00 32.84           C  
+HETATM   10  O5  Fru A   2      11.534   3.040 -16.093  1.00 32.82           O  
+HETATM   11  C6  Fru A   2      12.637   4.914 -17.146  1.00 33.16           C  
+HETATM   12  O6  Fru A   2      13.934   4.308 -17.105  1.00 33.33           O  
+ATOM     13  N   GLN B  41       5.850   9.314 -17.475  1.00 31.04           N  
+ATOM     14  CA  GLN B  41       6.640   8.115 -17.246  1.00 30.74           C  
+ATOM     15  C   GLN B  41       6.481   7.671 -15.792  1.00 30.45           C  
+ATOM     16  O   GLN B  41       7.012   6.635 -15.397  1.00 30.53           O  
+ATOM     17  CB  GLN B  41       8.107   8.354 -17.610  1.00 30.67           C  
+ATOM     18  CG  GLN B  41       8.339   8.595 -19.096  1.00 30.78           C  
+ATOM     19  CD  GLN B  41       9.773   8.370 -19.513  1.00 30.87           C  
+ATOM     20  NE2 GLN B  41      10.414   9.427 -19.980  1.00 31.05           N  
+ATOM     21  OE1 GLN B  41      10.300   7.261 -19.436  1.00 30.95           O  
+TER   
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4    5   10
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    3    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,35 @@
+HETATM    1  C1  MAN A   5      85.037  43.055   6.291  1.00 71.28           C  
+HETATM    2  O1  MAN A   5      85.019  44.378   5.753  1.00  0.00           O  
+HETATM    3  C2  MAN A   5      86.031  42.993   7.458  1.00 70.86           C  
+HETATM    4  O2  MAN A   5      86.096  41.704   8.041  1.00 75.79           O  
+HETATM    5  C3  MAN A   5      87.417  43.386   6.965  1.00 70.58           C  
+HETATM    6  O3  MAN A   5      88.348  43.311   8.037  1.00 75.38           O  
+HETATM    7  C4  MAN A   5      87.818  42.427   5.848  1.00 71.76           C  
+HETATM    8  O4  MAN A   5      89.095  42.779   5.333  1.00 76.82           O  
+HETATM    9  C5  MAN A   5      86.766  42.491   4.732  1.00 73.63           C  
+HETATM   10  O5  MAN A   5      85.460  42.179   5.256  1.00 75.14           O  
+HETATM   11  C6  MAN A   5      87.087  41.570   3.564  1.00 78.66           C  
+HETATM   12  O6  MAN A   5      86.000  41.566   2.650  1.00 83.69           O  
+ATOM     13  N   GLU B 555      88.785  48.636  11.186  1.00 71.82           N  
+ATOM     14  CA  GLU B 555      87.474  48.734  10.592  1.00 70.18           C  
+ATOM     15  C   GLU B 555      86.837  50.069  10.889  1.00 74.47           C  
+ATOM     16  O   GLU B 555      86.198  50.687  10.033  1.00 74.84           O  
+ATOM     17  CB  GLU B 555      86.615  47.571  11.068  1.00 70.60           C  
+ATOM     18  CG  GLU B 555      85.754  46.987   9.979  1.00 74.66           C  
+ATOM     19  CD  GLU B 555      86.578  46.245   8.955  1.00 80.95           C  
+ATOM     20  OE1 GLU B 555      87.611  45.669   9.350  1.00 78.10           O  
+ATOM     21  OE2 GLU B 555      86.204  46.232   7.764  1.00 75.06           O1-
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

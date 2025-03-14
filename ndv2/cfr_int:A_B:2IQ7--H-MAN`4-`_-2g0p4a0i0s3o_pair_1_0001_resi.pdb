@@ -1,0 +1,35 @@
+HETATM    1  C1  MAN A   4      28.860  -6.087  40.831  1.00 18.34           C  
+HETATM    2  O1  MAN A   4      28.239  -4.967  41.463  1.00  0.00           O  
+HETATM    3  C2  MAN A   4      27.862  -6.754  39.884  1.00 19.64           C  
+HETATM    4  O2  MAN A   4      28.542  -7.824  39.266  1.00 21.77           O  
+HETATM    5  C3  MAN A   4      26.624  -7.209  40.643  1.00 18.32           C  
+HETATM    6  O3  MAN A   4      25.793  -7.913  39.740  1.00 21.21           O  
+HETATM    7  C4  MAN A   4      27.011  -8.013  41.891  1.00 18.25           C  
+HETATM    8  O4  MAN A   4      25.901  -8.398  42.678  1.00 17.61           O  
+HETATM    9  C5  MAN A   4      27.942  -7.149  42.752  1.00 17.94           C  
+HETATM   10  O5  MAN A   4      29.104  -6.808  42.024  1.00 17.22           O  
+HETATM   11  C6  MAN A   4      28.390  -7.838  44.016  1.00 16.75           C  
+HETATM   12  O6  MAN A   4      29.134  -8.960  43.612  1.00 17.53           O  
+ATOM     13  N   LYS B 336      33.396  -5.031  44.697  1.00  8.65           N  
+ATOM     14  CA  LYS B 336      32.911  -6.344  44.338  1.00  8.77           C  
+ATOM     15  C   LYS B 336      33.833  -7.393  44.947  1.00  8.56           C  
+ATOM     16  O   LYS B 336      35.012  -7.482  44.585  1.00  8.11           O  
+ATOM     17  CB  LYS B 336      32.864  -6.483  42.809  1.00  9.16           C  
+ATOM     18  CG  LYS B 336      32.380  -7.833  42.325  1.00 10.59           C  
+ATOM     19  CD  LYS B 336      32.406  -7.899  40.802  1.00 15.14           C  
+ATOM     20  CE  LYS B 336      31.943  -9.257  40.300  1.00 18.28           C  
+ATOM     21  NZ  LYS B 336      30.500  -9.525  40.561  1.00 21.89           N1+
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

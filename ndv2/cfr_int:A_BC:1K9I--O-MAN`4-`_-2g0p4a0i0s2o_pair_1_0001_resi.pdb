@@ -1,0 +1,32 @@
+HETATM    1  C1  MAN A   4      47.677  28.610  48.908  1.00 45.18           C  
+HETATM    2  O1  MAN A   4      47.057  27.822  47.892  1.00  0.00           O  
+HETATM    3  C2  MAN A   4      46.738  29.766  49.302  1.00 46.12           C  
+HETATM    4  O2  MAN A   4      47.343  30.571  50.327  1.00 47.26           O  
+HETATM    5  C3  MAN A   4      46.422  30.638  48.082  1.00 46.53           C  
+HETATM    6  O3  MAN A   4      45.650  31.759  48.473  1.00 42.92           O  
+HETATM    7  C4  MAN A   4      47.721  31.113  47.431  1.00 47.80           C  
+HETATM    8  O4  MAN A   4      47.420  31.858  46.264  1.00 48.61           O  
+HETATM    9  C5  MAN A   4      48.608  29.910  47.075  1.00 46.67           C  
+HETATM   10  O5  MAN A   4      48.850  29.104  48.253  1.00 46.53           O  
+HETATM   11  C6  MAN A   4      49.961  30.356  46.569  1.00 47.78           C  
+HETATM   12  O6  MAN A   4      50.688  29.266  46.025  1.00 53.41           O  
+ATOM     13  N   SER C 360      41.096  32.426  51.064  1.00 33.96           N  
+ATOM     14  CA  SER C 360      42.292  31.658  50.730  1.00 34.55           C  
+ATOM     15  C   SER C 360      43.475  32.609  50.572  1.00 36.02           C  
+ATOM     16  O   SER C 360      43.529  33.396  49.628  1.00 35.27           O  
+ATOM     17  CB  SER C 360      42.078  30.899  49.419  1.00 36.17           C  
+ATOM     18  OG  SER C 360      43.289  30.342  48.934  1.00 34.07           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,50 @@
+ATOM      1  N   ASN B 524       6.047   6.298  -3.626  1.00 16.42      A    N  
+ATOM      2  CA  ASN B 524       4.839   5.536  -4.049  1.00 16.12      A    C  
+ATOM      3  C   ASN B 524       3.573   6.169  -3.471  1.00 15.80      A    C  
+ATOM      4  O   ASN B 524       2.493   5.579  -3.661  1.00 15.37      A    O  
+ATOM      5  CB  ASN B 524       4.971   4.055  -3.699  1.00 16.09      A    C  
+ATOM      6  CG  ASN B 524       6.272   3.508  -4.231  1.00 16.82      A    C  
+ATOM      7  ND2 ASN B 524       6.971   4.330  -5.001  1.00 17.59      A    N  
+ATOM      8  OD1 ASN B 524       6.652   2.380  -3.921  1.00 16.83      A    O  
+ATOM      9  N   HIS B 831      -1.447   3.592 -12.861  1.00 16.26      A    N  
+ATOM     10  CA  HIS B 831      -0.030   3.182 -13.047  1.00 16.47      A    C  
+ATOM     11  C   HIS B 831       0.049   2.101 -14.129  1.00 16.51      A    C  
+ATOM     12  O   HIS B 831       0.910   2.213 -15.013  1.00 17.11      A    O  
+ATOM     13  CB  HIS B 831       0.578   2.684 -11.730  1.00 16.16      A    C  
+ATOM     14  CG  HIS B 831       0.852   3.771 -10.746  1.00 16.21      A    C  
+ATOM     15  CD2 HIS B 831       1.032   5.097 -10.913  1.00 16.74      A    C  
+ATOM     16  ND1 HIS B 831       0.963   3.528  -9.387  1.00 15.85      A    N  
+ATOM     17  CE1 HIS B 831       1.203   4.664  -8.765  1.00 15.94      A    C  
+ATOM     18  NE2 HIS B 831       1.249   5.639  -9.675  1.00 16.55      A    N  
+TER   
+HETATM   19  C1  NAG A 901       7.072   3.244  -7.360  1.00 18.96      C    C  
+HETATM   20  O1  NAG A 901       5.795   3.551  -6.796  1.00  0.00      C    O  
+HETATM   21  C2  NAG A 901       6.908   2.915  -8.835  1.00 19.45      C    C  
+HETATM   22  N2  NAG A 901       6.040   1.756  -9.025  1.00 18.84      C    N  
+HETATM   23  C3  NAG A 901       8.286   2.649  -9.442  1.00 20.66      C    C  
+HETATM   24  O3  NAG A 901       8.185   2.497 -10.859  1.00 20.68      C    O  
+HETATM   25  C4  NAG A 901       9.286   3.768  -9.136  1.00 21.76      C    C  
+HETATM   26  O4  NAG A 901      10.605   3.309  -9.448  1.00 24.39      C    O  
+HETATM   27  C5  NAG A 901       9.261   4.216  -7.679  1.00 21.22      C    C  
+HETATM   28  O5  NAG A 901       7.920   4.396  -7.242  1.00 19.97      C    O  
+HETATM   29  C6  NAG A 901      10.031   5.526  -7.496  1.00 21.94      C    C  
+HETATM   30  O6  NAG A 901       9.400   6.599  -8.216  1.00 22.11      C    O  
+HETATM   31  C7  NAG A 901       4.710   1.818  -8.911  1.00 18.49      C    C  
+HETATM   32  O7  NAG A 901       4.088   2.868  -8.898  1.00 18.51      C    O  
+HETATM   33  C8  NAG A 901       4.004   0.499  -8.827  1.00 18.15      C    C  
+CONECT   19   20   21   28
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   21   31
+CONECT   23   21   24   25
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   19   27
+CONECT   29   27   30
+CONECT   30   29
+CONECT   31   22   32   33
+CONECT   32   31
+CONECT   33   31
+END

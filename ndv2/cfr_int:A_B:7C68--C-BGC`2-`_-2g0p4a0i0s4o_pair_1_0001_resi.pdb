@@ -1,0 +1,25 @@
+HETATM    1  C1  BGC A   2       9.386  -7.922 -27.166  1.00 21.78           C  
+HETATM    2  O1  BGC A   2       9.578  -6.546 -26.836  1.00  0.00           O  
+HETATM    3  C2  BGC A   2       8.965  -8.693 -25.914  1.00 19.41           C  
+HETATM    4  O2  BGC A   2      10.057  -8.731 -25.007  1.00 18.94           O  
+HETATM    5  C3  BGC A   2       8.707 -10.158 -26.307  1.00 17.81           C  
+HETATM    6  O3  BGC A   2       8.307 -10.870 -25.122  1.00 15.67           O  
+HETATM    7  C4  BGC A   2       7.733 -10.268 -27.499  1.00 16.80           C  
+HETATM    8  O4  BGC A   2       7.832 -11.617 -28.038  1.00 14.76           O  
+HETATM    9  C5  BGC A   2       8.161  -9.341 -28.649  1.00 16.88           C  
+HETATM   10  O5  BGC A   2       8.409  -7.968 -28.215  1.00 19.02           O  
+HETATM   11  C6  BGC A   2       7.098  -9.288 -29.748  1.00 16.39           C  
+HETATM   12  O6  BGC A   2       5.933  -8.702 -29.181  1.00 15.72           O  
+CONECT    1    2   10    3
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

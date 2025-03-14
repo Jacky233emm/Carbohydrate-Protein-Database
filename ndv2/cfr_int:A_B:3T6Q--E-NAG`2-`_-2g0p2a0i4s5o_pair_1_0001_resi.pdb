@@ -1,0 +1,42 @@
+HETATM    1  C1  NAG A   2      36.658  -0.494  -2.134  1.00 19.30           C  
+HETATM    2  O1  NAG A   2      36.171   0.828  -1.895  1.00  0.00           O  
+HETATM    3  C2  NAG A   2      37.329  -0.551  -3.515  1.00 20.34           C  
+HETATM    4  N2  NAG A   2      36.324  -0.264  -4.504  1.00 20.31           N  
+HETATM    5  C3  NAG A   2      37.918  -1.941  -3.780  1.00 21.02           C  
+HETATM    6  O3  NAG A   2      38.805  -1.872  -4.924  1.00 21.91           O  
+HETATM    7  C4  NAG A   2      38.781  -2.451  -2.612  1.00 20.23           C  
+HETATM    8  O4  NAG A   2      38.778  -3.879  -2.676  1.00 22.22           O  
+HETATM    9  C5  NAG A   2      38.250  -2.132  -1.229  1.00 22.31           C  
+HETATM   10  O5  NAG A   2      37.623  -0.847  -1.133  1.00 20.86           O  
+HETATM   11  C6  NAG A   2      39.434  -2.145  -0.211  1.00 23.30           C  
+HETATM   12  O6  NAG A   2      38.722  -2.232   0.997  1.00 36.29           O  
+HETATM   13  C7  NAG A   2      36.272   0.823  -5.256  1.00 17.81           C  
+HETATM   14  O7  NAG A   2      37.094   1.730  -5.185  1.00 20.47           O  
+HETATM   15  C8  NAG A   2      35.089   0.890  -6.210  1.00 21.53           C  
+ATOM     16  N   HIS B 379      33.472   8.084  -4.836  1.00 13.39           N  
+ATOM     17  CA  HIS B 379      33.797   8.208  -6.271  1.00 14.33           C  
+ATOM     18  C   HIS B 379      32.853   9.188  -6.951  1.00 15.32           C  
+ATOM     19  O   HIS B 379      32.433   8.970  -8.095  1.00 16.09           O  
+ATOM     20  CB  HIS B 379      33.644   6.835  -6.907  1.00 14.84           C  
+ATOM     21  CG  HIS B 379      34.831   5.918  -6.721  1.00 15.55           C  
+ATOM     22  CD2 HIS B 379      34.995   4.785  -5.928  1.00 17.28           C  
+ATOM     23  ND1 HIS B 379      36.011   6.137  -7.332  1.00 16.03           N  
+ATOM     24  CE1 HIS B 379      36.883   5.149  -7.018  1.00 17.94           C  
+ATOM     25  NE2 HIS B 379      36.270   4.320  -6.140  1.00 17.54           N  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

@@ -1,0 +1,32 @@
+HETATM    1  C1  BGC A   2      -0.838 -27.545  48.293  1.00 66.82           C  
+HETATM    2  O1  BGC A   2      -1.225 -28.916  48.186  1.00  0.00           O  
+HETATM    3  C2  BGC A   2      -1.701 -26.854  49.335  1.00 60.12           C  
+HETATM    4  O2  BGC A   2      -3.082 -26.950  48.949  1.00 70.37           O  
+HETATM    5  C3  BGC A   2      -1.277 -25.385  49.525  1.00 72.98           C  
+HETATM    6  O3  BGC A   2      -1.651 -24.962  50.851  1.00 85.95           O  
+HETATM    7  C4  BGC A   2       0.214 -25.077  49.297  1.00 80.78           C  
+HETATM    8  O4  BGC A   2       0.382 -23.772  48.739  1.00 71.88           O  
+HETATM    9  C5  BGC A   2       0.929 -26.029  48.338  1.00 86.05           C  
+HETATM   10  O5  BGC A   2       0.545 -27.376  48.601  1.00 79.86           O  
+HETATM   11  C6  BGC A   2       2.458 -25.922  48.467  1.00 85.56           C  
+HETATM   12  O6  BGC A   2       3.135 -26.045  47.198  1.00 79.18           O  
+ATOM     13  N   SER B 273       4.249 -22.109  42.406  1.00 34.09           N  
+ATOM     14  CA  SER B 273       4.144 -22.298  43.853  1.00 42.03           C  
+ATOM     15  C   SER B 273       4.097 -23.754  44.306  1.00 40.72           C  
+ATOM     16  O   SER B 273       4.204 -24.011  45.512  1.00 45.48           O  
+ATOM     17  CB  SER B 273       2.898 -21.580  44.385  1.00 40.18           C  
+ATOM     18  OG  SER B 273       1.730 -22.160  43.836  1.00 44.22           O  
+TER   
+CONECT    1    2   10    3
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

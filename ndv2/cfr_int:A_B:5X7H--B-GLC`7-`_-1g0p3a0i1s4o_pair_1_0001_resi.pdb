@@ -1,0 +1,25 @@
+HETATM    1  C1  GLC A   7       4.390  27.969  43.580  1.00 69.85           C  
+HETATM    2  O1  GLC A   7       3.376  28.186  42.598  1.00  0.00           O  
+HETATM    3  C2  GLC A   7       4.055  26.698  44.395  1.00 64.00           C  
+HETATM    4  O2  GLC A   7       3.975  25.580  43.496  1.00 50.55           O  
+HETATM    5  C3  GLC A   7       2.730  26.826  45.173  1.00 65.01           C  
+HETATM    6  O3  GLC A   7       2.568  25.752  46.126  1.00 59.34           O  
+HETATM    7  C4  GLC A   7       2.606  28.195  45.882  1.00 63.74           C  
+HETATM    8  O4  GLC A   7       1.256  28.442  46.277  1.00 56.91           O  
+HETATM    9  C5  GLC A   7       3.036  29.373  45.001  1.00 69.81           C  
+HETATM   10  O5  GLC A   7       4.332  29.143  44.401  1.00 71.16           O  
+HETATM   11  C6  GLC A   7       3.063  30.673  45.808  1.00 72.14           C  
+HETATM   12  O6  GLC A   7       3.106  31.802  44.924  1.00 72.45           O  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,34 @@
+HETATM    1  C1  GLC A   3      40.770   6.337   8.978  1.00 72.51           C  
+HETATM    2  O1  GLC A   3      39.471   6.926   8.916  1.00  0.00           O  
+HETATM    3  C2  GLC A   3      41.704   7.055   7.996  1.00 75.00           C  
+HETATM    4  O2  GLC A   3      41.786   8.436   8.362  1.00 69.11           O  
+HETATM    5  C3  GLC A   3      41.240   6.911   6.545  1.00 78.00           C  
+HETATM    6  O3  GLC A   3      42.263   7.365   5.671  1.00 77.03           O  
+HETATM    7  C4  GLC A   3      40.872   5.468   6.212  1.00 80.17           C  
+HETATM    8  O4  GLC A   3      40.311   5.387   4.896  1.00 85.49           O  
+HETATM    9  C5  GLC A   3      39.850   4.997   7.240  1.00 80.97           C  
+HETATM   10  O5  GLC A   3      40.471   5.020   8.531  1.00 77.43           O  
+HETATM   11  C6  GLC A   3      39.331   3.595   7.029  1.00 86.27           C  
+HETATM   12  O6  GLC A   3      38.763   3.046   8.220  1.00 88.33           O  
+ATOM     13  N   ASP B 130      32.769  -0.597   9.036  1.00 43.95           N  
+ATOM     14  CA  ASP B 130      33.715  -1.115   8.045  1.00 47.49           C  
+ATOM     15  C   ASP B 130      34.426  -2.321   8.644  1.00 48.28           C  
+ATOM     16  O   ASP B 130      34.152  -2.716   9.775  1.00 45.25           O  
+ATOM     17  CB  ASP B 130      34.665  -0.027   7.443  1.00 48.64           C  
+ATOM     18  CG  ASP B 130      35.757   0.472   8.400  1.00 48.75           C  
+ATOM     19  OD1 ASP B 130      35.933  -0.029   9.508  1.00 45.92           O  
+ATOM     20  OD2 ASP B 130      36.476   1.393   7.988  1.00 51.23           O1-
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

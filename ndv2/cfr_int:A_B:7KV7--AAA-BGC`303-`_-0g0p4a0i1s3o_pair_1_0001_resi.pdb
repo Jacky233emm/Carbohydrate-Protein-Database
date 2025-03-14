@@ -1,0 +1,25 @@
+HETATM    1  C1  BGC A 303     -16.523  15.324 -50.898  1.00 36.20      F    C  
+HETATM    2  O1  BGC A 303     -17.707  14.583 -50.629  1.00 38.05      F    O  
+HETATM    3  C2  BGC A 303     -16.910  16.553 -51.705  1.00 38.65      F    C  
+HETATM    4  O2  BGC A 303     -17.510  16.115 -52.925  1.00 40.17      F    O  
+HETATM    5  C3  BGC A 303     -15.662  17.360 -51.970  1.00 43.67      F    C  
+HETATM    6  O3  BGC A 303     -16.088  18.595 -52.564  1.00 48.97      F    O  
+HETATM    7  C4  BGC A 303     -14.821  17.595 -50.725  1.00 42.95      F    C  
+HETATM    8  O4  BGC A 303     -13.551  18.110 -51.146  1.00 42.49      F    O  
+HETATM    9  C5  BGC A 303     -14.607  16.312 -49.925  1.00 43.08      F    C  
+HETATM   10  O5  BGC A 303     -15.878  15.703 -49.690  1.00 37.43      F    O  
+HETATM   11  C6  BGC A 303     -13.920  16.578 -48.581  1.00 46.01      F    C  
+HETATM   12  O6  BGC A 303     -13.790  15.344 -47.844  1.00 39.21      F    O  
+CONECT    1    2   10    3
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,70 @@
+HETATM    1  C1  GLC A   3      39.045  94.004  10.985  1.00 17.26           C  
+HETATM    2  C2  GLC A   3      39.564  93.174   9.870  1.00 18.05           C  
+HETATM    3  O2  GLC A   3      39.427  93.806   8.604  1.00 19.76           O  
+HETATM    4  C3  GLC A   3      38.823  91.852   9.794  1.00 18.04           C  
+HETATM    5  O3  GLC A   3      39.458  91.155   8.731  1.00 18.42           O  
+HETATM    6  C4  GLC A   3      38.940  91.175  11.153  1.00 18.17           C  
+HETATM    7  O4  GLC A   3      38.170  89.999  11.081  1.00 19.00           O  
+HETATM    8  C5  GLC A   3      38.410  92.062  12.284  1.00 17.93           C  
+HETATM    9  O5  GLC A   3      39.148  93.285  12.222  1.00 17.91           O  
+HETATM   10  C6  GLC A   3      38.620  91.530  13.675  1.00 17.32           C  
+HETATM   11  O6  GLC A   3      40.002  91.725  14.024  1.00 18.68           O  
+HETATM   12  C1  GLC A   4      38.692  88.788  11.605  1.00 20.60           C  
+HETATM   13  C2  GLC A   4      38.952  87.696  10.594  1.00 21.54           C  
+HETATM   14  O2  GLC A   4      39.800  88.228   9.581  1.00 22.90           O  
+HETATM   15  C3  GLC A   4      37.673  87.172   9.963  1.00 21.14           C  
+HETATM   16  O3  GLC A   4      37.936  86.193   8.999  1.00 23.18           O  
+HETATM   17  C4  GLC A   4      36.728  86.705  11.070  1.00 21.11           C  
+HETATM   18  O4  GLC A   4      35.487  86.362  10.518  1.00 21.16           O  
+HETATM   19  C5  GLC A   4      36.479  87.905  11.982  1.00 21.31           C  
+HETATM   20  O5  GLC A   4      37.734  88.342  12.539  1.00 21.40           O  
+HETATM   21  C6  GLC A   4      35.627  87.602  13.177  1.00 21.40           C  
+HETATM   22  O6  GLC A   4      36.384  86.765  14.050  1.00 22.28           O  
+ATOM     23  CG  TRP B  66      43.207  93.725  11.349  1.00 25.77           C  
+ATOM     24  CD1 TRP B  66      42.493  94.573  12.162  1.00 24.90           C  
+ATOM     25  CD2 TRP B  66      43.391  94.425  10.107  1.00 24.91           C  
+ATOM     26  CE2 TRP B  66      42.770  95.692  10.245  1.00 23.93           C  
+ATOM     27  CE3 TRP B  66      44.029  94.093   8.922  1.00 24.66           C  
+ATOM     28  NE1 TRP B  66      42.237  95.757  11.487  1.00 24.17           N  
+ATOM     29  CZ2 TRP B  66      42.753  96.634   9.232  1.00 23.89           C  
+ATOM     30  CZ3 TRP B  66      44.013  95.040   7.908  1.00 25.48           C  
+ATOM     31  CH2 TRP B  66      43.389  96.284   8.056  1.00 24.82           C  
+ATOM     32  CG  ASP B 160      34.500  83.789  13.100  1.00 22.51           C  
+ATOM     33  OD1 ASP B 160      34.359  84.343  12.013  1.00 22.30           O  
+ATOM     34  OD2 ASP B 160      35.365  84.103  13.965  1.00 24.37           O1-
+TER   
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7    8
+CONECT    7    6   12
+CONECT    8    6    9   10
+CONECT    9    1    8
+CONECT   10    8   11
+CONECT   11   10
+CONECT   12    7   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   12   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   24   25
+CONECT   24   23   28
+CONECT   25   23   26   27
+CONECT   26   25   28   29
+CONECT   27   25   30
+CONECT   28   24   26
+CONECT   29   26   31
+CONECT   30   27   31
+CONECT   31   29   30
+CONECT   32   33   34
+CONECT   33   32
+CONECT   34   32
+END

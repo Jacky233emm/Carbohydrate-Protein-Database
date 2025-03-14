@@ -1,0 +1,25 @@
+HETATM    1  C1  MAN A   7      38.125 -12.045  22.852  1.00 35.14           C  
+HETATM    2  O1  MAN A   7      37.656 -12.367  21.542  1.00  0.00           O  
+HETATM    3  C2  MAN A   7      37.780 -10.590  23.170  1.00 39.20           C  
+HETATM    4  O2  MAN A   7      38.371 -10.221  24.395  1.00 44.31           O  
+HETATM    5  C3  MAN A   7      38.425  -9.677  22.133  1.00 38.48           C  
+HETATM    6  O3  MAN A   7      38.146  -8.337  22.427  1.00 36.43           O  
+HETATM    7  C4  MAN A   7      39.935  -9.857  22.180  1.00 39.23           C  
+HETATM    8  O4  MAN A   7      40.560  -9.011  21.235  1.00 40.84           O  
+HETATM    9  C5  MAN A   7      40.294 -11.328  21.969  1.00 38.28           C  
+HETATM   10  O5  MAN A   7      39.548 -12.177  22.841  1.00 36.49           O  
+HETATM   11  C6  MAN A   7      41.789 -11.545  22.194  1.00 39.19           C  
+HETATM   12  O6  MAN A   7      42.317 -12.488  21.274  1.00 38.69           O  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

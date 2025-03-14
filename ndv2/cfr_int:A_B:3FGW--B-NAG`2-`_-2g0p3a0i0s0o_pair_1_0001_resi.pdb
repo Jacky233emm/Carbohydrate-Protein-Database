@@ -1,0 +1,31 @@
+HETATM    1  C1  NAG A   2      58.335  22.037  25.931  1.00 51.02           C  
+HETATM    2  O1  NAG A   2      57.696  21.132  25.027  1.00  0.00           O  
+HETATM    3  C2  NAG A   2      59.836  21.783  25.927  1.00 50.66           C  
+HETATM    4  N2  NAG A   2      60.140  20.417  26.315  1.00 49.62           N  
+HETATM    5  C3  NAG A   2      60.545  22.777  26.840  1.00 51.34           C  
+HETATM    6  O3  NAG A   2      61.940  22.618  26.702  1.00 51.83           O  
+HETATM    7  C4  NAG A   2      60.175  24.227  26.513  1.00 52.19           C  
+HETATM    8  O4  NAG A   2      60.535  25.019  27.633  1.00 52.42           O  
+HETATM    9  C5  NAG A   2      58.686  24.421  26.163  1.00 52.32           C  
+HETATM   10  O5  NAG A   2      58.110  23.342  25.437  1.00 51.61           O  
+HETATM   11  C6  NAG A   2      58.515  25.676  25.309  1.00 52.08           C  
+HETATM   12  O6  NAG A   2      57.147  25.925  25.081  1.00 53.20           O  
+HETATM   13  C7  NAG A   2      60.742  19.565  25.484  1.00 49.67           C  
+HETATM   14  O7  NAG A   2      61.174  19.875  24.372  1.00 47.88           O  
+HETATM   15  C8  NAG A   2      60.880  18.155  25.972  1.00 49.74           C  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

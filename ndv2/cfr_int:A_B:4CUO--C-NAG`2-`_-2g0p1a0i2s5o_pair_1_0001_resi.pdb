@@ -1,0 +1,41 @@
+HETATM    1  C1  NAG A   2      53.609  34.721  13.508  1.00 40.52           C  
+HETATM    2  O1  NAG A   2      54.313  33.599  12.971  1.00  0.00           O  
+HETATM    3  C2  NAG A   2      54.375  35.279  14.703  1.00 40.32           C  
+HETATM    4  N2  NAG A   2      54.509  34.273  15.758  1.00 42.06           N  
+HETATM    5  C3  NAG A   2      53.638  36.509  15.218  1.00 43.76           C  
+HETATM    6  O3  NAG A   2      54.454  37.098  16.230  1.00 40.40           O  
+HETATM    7  C4  NAG A   2      53.355  37.531  14.112  1.00 42.70           C  
+HETATM    8  O4  NAG A   2      52.388  38.400  14.637  1.00 44.97           O  
+HETATM    9  C5  NAG A   2      52.673  36.822  12.908  1.00 41.70           C  
+HETATM   10  O5  NAG A   2      53.496  35.760  12.564  1.00 41.11           O  
+HETATM   11  C6  NAG A   2      52.480  37.720  11.710  1.00 42.11           C  
+HETATM   12  O6  NAG A   2      51.629  37.028  10.805  1.00 45.41           O  
+HETATM   13  C7  NAG A   2      55.657  33.614  15.986  1.00 44.22           C  
+HETATM   14  O7  NAG A   2      56.745  33.863  15.427  1.00 43.84           O  
+HETATM   15  C8  NAG A   2      55.551  32.510  16.988  1.00 46.94           C  
+ATOM     16  N   GLN B 136      49.658  26.388  17.183  1.00 36.60           N  
+ATOM     17  CA  GLN B 136      48.972  27.500  17.780  1.00 38.95           C  
+ATOM     18  C   GLN B 136      47.492  27.488  17.612  1.00 40.86           C  
+ATOM     19  O   GLN B 136      46.810  27.916  18.543  1.00 43.63           O  
+ATOM     20  CB  GLN B 136      49.474  28.852  17.288  1.00 39.26           C  
+ATOM     21  CG  GLN B 136      50.878  29.085  17.678  1.00 41.67           C  
+ATOM     22  CD  GLN B 136      51.401  30.418  17.144  1.00 47.75           C  
+ATOM     23  NE2 GLN B 136      52.628  30.684  17.465  1.00 47.91           N  
+ATOM     24  OE1 GLN B 136      50.696  31.192  16.447  1.00 50.11           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

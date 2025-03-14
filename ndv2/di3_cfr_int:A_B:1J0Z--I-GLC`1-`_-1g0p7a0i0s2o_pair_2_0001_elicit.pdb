@@ -1,0 +1,96 @@
+HETATM    1  C1  GLC A   1      62.539  31.924  42.449  1.00 25.98           C  
+HETATM    2  O1  GLC A   1      62.117  33.194  42.795  1.00 39.94           O  
+HETATM    3  C2  GLC A   1      62.411  31.739  40.938  1.00 24.72           C  
+HETATM    4  O2  GLC A   1      61.039  31.771  40.572  1.00 29.65           O  
+HETATM    5  C3  GLC A   1      63.016  30.405  40.509  1.00 22.17           C  
+HETATM    6  O3  GLC A   1      62.993  30.305  39.090  1.00 26.83           O  
+HETATM    7  C4  GLC A   1      64.454  30.265  41.036  1.00 22.25           C  
+HETATM    8  O4  GLC A   1      64.943  28.933  40.753  1.00 20.43           O  
+HETATM    9  C5  GLC A   1      64.455  30.502  42.557  1.00 24.34           C  
+HETATM   10  O5  GLC A   1      63.904  31.800  42.854  1.00 27.37           O  
+HETATM   11  C6  GLC A   1      65.825  30.449  43.210  1.00 20.73           C  
+HETATM   12  O6  GLC A   1      66.688  31.450  42.691  1.00 16.07           O  
+HETATM   13  C1  GLC A   2      65.518  28.714  39.491  1.00 14.40           C  
+HETATM   14  C2  GLC A   2      65.827  27.229  39.341  1.00 15.60           C  
+HETATM   15  O2  GLC A   2      64.643  26.461  39.530  1.00 14.23           O  
+HETATM   16  C3  GLC A   2      66.870  26.849  40.389  1.00 12.89           C  
+HETATM   17  O3  GLC A   2      67.183  25.471  40.289  1.00 15.11           O  
+HETATM   18  C4  GLC A   2      68.136  27.697  40.204  1.00 12.86           C  
+HETATM   19  O4  GLC A   2      69.056  27.392  41.246  1.00 11.60           O  
+HETATM   20  C5  GLC A   2      67.763  29.191  40.251  1.00 13.66           C  
+HETATM   21  O5  GLC A   2      66.707  29.481  39.306  1.00 17.53           O  
+HETATM   22  C6  GLC A   2      68.917  30.126  39.927  1.00 10.07           C  
+HETATM   23  O6  GLC A   2      69.337  29.985  38.580  1.00 17.26           O  
+ATOM     24  CG  ASP B  49      71.884  28.007  39.256  1.00 10.74           C  
+ATOM     25  OD1 ASP B  49      71.965  28.202  40.483  1.00 12.22           O  
+ATOM     26  OD2 ASP B  49      70.977  28.483  38.548  1.00 12.88           O1-
+ATOM     27  CG  HIS B  89      68.585  22.375  43.389  1.00  8.86           C  
+ATOM     28  CD2 HIS B  89      67.914  22.945  42.360  1.00  6.81           C  
+ATOM     29  ND1 HIS B  89      69.546  23.286  43.765  1.00 13.40           N  
+ATOM     30  CE1 HIS B  89      69.463  24.360  43.001  1.00 13.79           C  
+ATOM     31  NE2 HIS B  89      68.478  24.179  42.141  1.00 13.64           N  
+ATOM     32  CG  ASP B  97      63.696  24.565  36.799  1.00 30.72           C  
+ATOM     33  OD1 ASP B  97      63.782  23.651  37.643  1.00 26.69           O  
+ATOM     34  OD2 ASP B  97      64.007  25.751  37.049  1.00 32.25           O1-
+ATOM     35  CD  GLU B 172      63.339  29.299  46.253  1.00 10.58           C  
+ATOM     36  OE1 GLU B 172      63.113  30.494  45.973  1.00 11.52           O  
+ATOM     37  OE2 GLU B 172      62.492  28.399  46.083  1.00 15.18           O1-
+ATOM     38  CE  LYS B 287      69.560  32.167  44.963  1.00  9.71           C  
+ATOM     39  NZ  LYS B 287      69.475  31.532  43.620  1.00 16.77           N1+
+ATOM     40  CB  THR B 330      62.456  35.732  45.521  1.00 22.16           C  
+ATOM     41  OG1 THR B 330      62.129  35.940  44.140  1.00 28.32           O  
+ATOM     42  CD  GLU B 367      66.649  35.138  43.589  1.00 27.89           C  
+ATOM     43  OE1 GLU B 367      65.970  34.115  43.358  1.00 30.04           O  
+ATOM     44  OE2 GLU B 367      67.901  35.136  43.610  1.00 21.78           O1-
+ATOM     45  CZ  ARG B 397      67.549  31.402  35.934  1.00 23.87           C  
+ATOM     46  NH1 ARG B 397      68.854  31.374  36.190  1.00 25.41           N1+
+ATOM     47  NH2 ARG B 397      66.690  30.984  36.858  1.00 19.93           N  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7   13
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    8   14   21
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   13   20
+CONECT   22   20   23
+CONECT   23   22
+CONECT   24   25   26
+CONECT   25   24
+CONECT   26   24
+CONECT   27   28   29
+CONECT   28   27   31
+CONECT   29   27   30
+CONECT   30   29   31
+CONECT   31   28   30
+CONECT   32   33   34
+CONECT   33   32
+CONECT   34   32
+CONECT   35   36   37
+CONECT   36   35
+CONECT   37   35
+CONECT   38   39
+CONECT   39   38
+CONECT   40   41
+CONECT   41   40
+CONECT   42   43   44
+CONECT   43   42
+CONECT   44   42
+CONECT   45   46   47
+CONECT   46   45
+CONECT   47   45
+END

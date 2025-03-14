@@ -1,0 +1,104 @@
+HETATM    1  C1  GLC A   2     -33.976  37.911   5.686  1.00 16.38           C  
+ANISOU    1  C1  GLC A   2     2072   2200   1950   -107   -236     49       C  
+HETATM    2  C2  GLC A   2     -32.893  37.874   6.767  1.00 14.72           C  
+ANISOU    2  C2  GLC A   2     1843   1892   1857   -118   -110   -209       C  
+HETATM    3  O2  GLC A   2     -31.638  38.140   6.145  1.00 13.64           O  
+ANISOU    3  O2  GLC A   2     1553   2017   1610    -68   -492    -84       O  
+HETATM    4  C3  GLC A   2     -32.829  36.505   7.422  1.00 14.68           C  
+ANISOU    4  C3  GLC A   2     1805   2025   1747   -134     -2   -127       C  
+HETATM    5  O3  GLC A   2     -31.853  36.534   8.459  1.00 15.56           O  
+ANISOU    5  O3  GLC A   2     2128   2176   1605    -47    -45   -402       O  
+HETATM    6  C4  GLC A   2     -34.203  36.109   7.974  1.00 14.47           C  
+ANISOU    6  C4  GLC A   2     1781   1897   1818   -125    -15    -86       C  
+HETATM    7  O4  GLC A   2     -34.150  34.756   8.496  1.00 13.49           O  
+ANISOU    7  O4  GLC A   2     1565   1895   1665   -280   -136    -89       O  
+HETATM    8  C5  GLC A   2     -35.184  36.150   6.824  1.00 15.56           C  
+ANISOU    8  C5  GLC A   2     1852   2092   1968    -42   -101    -63       C  
+HETATM    9  O5  GLC A   2     -35.229  37.483   6.231  1.00 16.04           O  
+ANISOU    9  O5  GLC A   2     1962   2084   2045     67   -169    -57       O  
+HETATM   10  C6  GLC A   2     -36.607  35.778   7.279  1.00 15.13           C  
+ANISOU   10  C6  GLC A   2     1897   2021   1828   -109    -91    -81       C  
+HETATM   11  O6  GLC A   2     -37.475  35.852   6.135  1.00 17.24           O  
+ANISOU   11  O6  GLC A   2     1970   2550   2030     26   -247    -97       O  
+HETATM   12  C1  GLC A   3     -33.876  34.673   9.923  1.00 13.59           C  
+ANISOU   12  C1  GLC A   3     1768   1778   1615   -222     46     12       C  
+HETATM   13  C2  GLC A   3     -32.920  33.545  10.207  1.00 14.33           C  
+ANISOU   13  C2  GLC A   3     1673   2069   1701    -95     66      1       C  
+HETATM   14  O2  GLC A   3     -31.714  33.739   9.464  1.00 15.73           O  
+ANISOU   14  O2  GLC A   3     1510   2581   1885    -86   -125    657       O  
+HETATM   15  C3  GLC A   3     -33.563  32.236   9.809  1.00 14.68           C  
+ANISOU   15  C3  GLC A   3     1804   1954   1817    -76    205     33       C  
+HETATM   16  O3  GLC A   3     -32.668  31.180  10.111  1.00 16.44           O  
+ANISOU   16  O3  GLC A   3     1734   2457   2052    131    195    111       O  
+HETATM   17  C4  GLC A   3     -34.854  32.032  10.596  1.00 14.32           C  
+ANISOU   17  C4  GLC A   3     1656   1852   1932   -115    124    -18       C  
+HETATM   18  O4  GLC A   3     -35.496  30.863  10.090  1.00 14.54           O  
+ANISOU   18  O4  GLC A   3     1390   1931   2202    -58     84   -118       O  
+HETATM   19  C5  GLC A   3     -35.798  33.255  10.466  1.00 14.98           C  
+ANISOU   19  C5  GLC A   3     1829   1807   2054    -90    216    -30       C  
+HETATM   20  O5  GLC A   3     -35.083  34.488  10.695  1.00 14.30           O  
+ANISOU   20  O5  GLC A   3     1850   1755   1826    -48    246   -154       O  
+HETATM   21  C6  GLC A   3     -36.952  33.187  11.503  1.00 14.98           C  
+ANISOU   21  C6  GLC A   3     1679   1843   2167     39    209    -51       C  
+HETATM   22  O6  GLC A   3     -36.319  33.044  12.778  1.00 17.66           O  
+ANISOU   22  O6  GLC A   3     2287   2256   2165    224    289    183       O  
+ATOM     23  CG  TRP B 512     -36.493  38.812   9.802  1.00 12.23           C  
+ATOM     24  CD1 TRP B 512     -36.388  37.778  10.676  1.00 12.47           C  
+ATOM     25  CD2 TRP B 512     -35.198  39.450   9.779  1.00 11.56           C  
+ATOM     26  CE2 TRP B 512     -34.371  38.730  10.667  1.00 11.78           C  
+ATOM     27  CE3 TRP B 512     -34.660  40.549   9.097  1.00 11.37           C  
+ATOM     28  NE1 TRP B 512     -35.123  37.714  11.189  1.00 12.39           N  
+ATOM     29  CZ2 TRP B 512     -33.028  39.074  10.899  1.00 11.64           C  
+ATOM     30  CZ3 TRP B 512     -33.328  40.891   9.324  1.00 11.04           C  
+ATOM     31  CH2 TRP B 512     -32.524  40.148  10.219  1.00 11.17           C  
+ATOM     32  CG  ASP B 541     -30.757  41.470   6.825  1.00 12.16           C  
+ATOM     33  OD1 ASP B 541     -30.844  42.702   7.035  1.00  9.93           O  
+ATOM     34  OD2 ASP B 541     -31.447  40.892   5.956  1.00 14.72           O1-
+ATOM     35  CZ  ARG B 544     -28.441  37.219   8.100  1.00 15.73           C  
+ATOM     36  NH1 ARG B 544     -29.309  37.349   9.105  1.00 16.40           N1+
+ATOM     37  NH2 ARG B 544     -28.903  37.122   6.853  1.00 14.11           N  
+ATOM     38  CG  ASN B 643     -29.163  30.924   9.782  1.00 13.45           C  
+ATOM     39  ND2 ASN B 643     -29.385  32.212   9.980  1.00 13.39           N  
+ATOM     40  OD1 ASN B 643     -30.001  30.176   9.274  1.00 15.81           O  
+TER   
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    6
+CONECT    5    4
+CONECT    6    4    7    8
+CONECT    7    6   12
+CONECT    8    6    9   10
+CONECT    9    1    8
+CONECT   10    8   11
+CONECT   11   10
+CONECT   12    7   13   20
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   12   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   24   25
+CONECT   24   23   28
+CONECT   25   23   26   27
+CONECT   26   25   28   29
+CONECT   27   25   30
+CONECT   28   24   26
+CONECT   29   26   31
+CONECT   30   27   31
+CONECT   31   29   30
+CONECT   32   33   34
+CONECT   33   32
+CONECT   34   32
+CONECT   35   36   37
+CONECT   36   35
+CONECT   37   35
+CONECT   38   39   40
+CONECT   39   38
+CONECT   40   38
+END

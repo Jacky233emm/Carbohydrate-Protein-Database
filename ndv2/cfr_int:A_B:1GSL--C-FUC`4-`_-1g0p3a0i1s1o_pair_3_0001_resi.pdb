@@ -1,0 +1,23 @@
+HETATM    1  C1  FUC A   4      23.028  36.023  30.603  1.00 40.51           C  
+HETATM    2  O1  FUC A   4      22.068  37.060  30.808  1.00  0.00           O  
+HETATM    3  C2  FUC A   4      23.892  35.882  31.847  1.00 41.08           C  
+HETATM    4  O2  FUC A   4      24.452  37.150  32.175  1.00 40.95           O  
+HETATM    5  C3  FUC A   4      23.058  35.379  33.023  1.00 41.52           C  
+HETATM    6  O3  FUC A   4      23.922  35.109  34.122  1.00 44.00           O  
+HETATM    7  C4  FUC A   4      22.303  34.106  32.629  1.00 40.84           C  
+HETATM    8  O4  FUC A   4      23.221  33.041  32.412  1.00 40.55           O  
+HETATM    9  C5  FUC A   4      21.481  34.349  31.368  1.00 39.78           C  
+HETATM   10  O5  FUC A   4      22.337  34.817  30.313  1.00 40.31           O  
+HETATM   11  C6  FUC A   4      20.792  33.092  30.863  1.00 38.06           C  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9
+END

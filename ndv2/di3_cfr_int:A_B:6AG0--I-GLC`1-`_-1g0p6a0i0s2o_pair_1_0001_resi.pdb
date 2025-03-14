@@ -1,0 +1,87 @@
+HETATM    1  C1  GLC A   1      60.728  -9.038  84.417  1.00 67.45           C  
+ANISOU    1  C1  GLC A   1     8378   8467   8783    332    322    318       C  
+HETATM    2  O1  GLC A   1      61.469 -10.011  83.800  1.00 68.87           O  
+ANISOU    2  O1  GLC A   1     8557   8624   8988    384    322    313       O  
+HETATM    3  C2  GLC A   1      60.397  -7.951  83.409  1.00 64.14           C  
+ANISOU    3  C2  GLC A   1     7983   8054   8332    309    318    263       C  
+HETATM    4  O2  GLC A   1      59.522  -8.499  82.392  1.00 57.38           O  
+ANISOU    4  O2  GLC A   1     7159   7125   7518    322    308    220       O  
+HETATM    5  C3  GLC A   1      61.661  -7.405  82.822  1.00 68.65           C  
+ANISOU    5  C3  GLC A   1     8542   8687   8855    324    327    252       C  
+HETATM    6  O3  GLC A   1      61.332  -6.360  81.859  1.00 71.41           O  
+ANISOU    6  O3  GLC A   1     8910   9044   9177    299    322    208       O  
+HETATM    7  C4  GLC A   1      62.604  -6.891  83.890  1.00 64.33           C  
+ANISOU    7  C4  GLC A   1     7960   8217   8266    310    336    297       C  
+HETATM    8  O4  GLC A   1      63.913  -6.599  83.331  1.00 60.40           O  
+ANISOU    8  O4  GLC A   1     7444   7777   7728    330    343    294       O  
+HETATM    9  C5  GLC A   1      62.816  -7.916  85.010  1.00 62.22           C  
+ANISOU    9  C5  GLC A   1     7669   7946   8026    330    340    351       C  
+HETATM   10  O5  GLC A   1      61.537  -8.441  85.530  1.00 63.34           O  
+ANISOU   10  O5  GLC A   1     7823   8029   8215    315    332    362       O  
+HETATM   11  C6  GLC A   1      63.583  -7.305  86.138  1.00 60.54           C  
+ANISOU   11  C6  GLC A   1     7421   7814   7768    308    349    392       C  
+HETATM   12  O6  GLC A   1      63.693  -8.224  87.185  1.00 57.13           O  
+ANISOU   12  O6  GLC A   1     6963   7383   7359    325    353    447       O  
+HETATM   13  C1  GLC A   2      64.103  -5.265  83.072  1.00 60.09           C  
+ANISOU   13  C1  GLC A   2     7405   7784   7642    292    342    278       C  
+HETATM   14  C2  GLC A   2      64.949  -5.125  81.818  1.00 59.43           C  
+ANISOU   14  C2  GLC A   2     7320   7729   7533    317    344    255       C  
+HETATM   15  O2  GLC A   2      64.293  -5.740  80.686  1.00 62.34           O  
+ANISOU   15  O2  GLC A   2     7714   8039   7933    345    339    211       O  
+HETATM   16  C3  GLC A   2      66.282  -5.755  82.013  1.00 52.05           C  
+ANISOU   16  C3  GLC A   2     6352   6842   6580    358    355    285       C  
+HETATM   17  O3  GLC A   2      67.046  -5.540  80.808  1.00 40.99           O  
+ANISOU   17  O3  GLC A   2     4946   5480   5149    380    356    261       O  
+HETATM   18  C4  GLC A   2      67.043  -5.199  83.182  1.00 60.03           C  
+ANISOU   18  C4  GLC A   2     7332   7921   7556    333    361    330       C  
+HETATM   19  O4  GLC A   2      68.189  -6.067  83.375  1.00 63.55           O  
+ANISOU   19  O4  GLC A   2     7749   8402   7994    380    372    361       O  
+HETATM   20  C5  GLC A   2      66.174  -5.194  84.448  1.00 61.62           C  
+ANISOU   20  C5  GLC A   2     7534   8099   7778    302    358    351       C  
+HETATM   21  O5  GLC A   2      64.829  -4.615  84.214  1.00 58.83           O  
+ANISOU   21  O5  GLC A   2     7213   7694   7444    266    347    316       O  
+HETATM   22  C6  GLC A   2      66.836  -4.422  85.552  1.00 61.61           C  
+ANISOU   22  C6  GLC A   2     7502   8172   7735    270    362    385       C  
+HETATM   23  O6  GLC A   2      65.890  -4.087  86.522  1.00 59.32           O  
+ANISOU   23  O6  GLC A   2     7214   7868   7456    234    356    389       O  
+ATOM     24  N   ASP B 205      55.600  -1.143  83.218  1.00 27.67           N  
+ATOM     25  CA  ASP B 205      55.883  -2.574  83.084  1.00 28.01           C  
+ATOM     26  C   ASP B 205      55.407  -3.278  84.352  1.00 31.44           C  
+ATOM     27  O   ASP B 205      56.115  -3.333  85.357  1.00 28.91           O  
+ATOM     28  CB  ASP B 205      57.370  -2.794  82.839  1.00 29.54           C  
+ATOM     29  CG  ASP B 205      57.720  -4.256  82.698  1.00 30.63           C  
+ATOM     30  OD1 ASP B 205      56.817  -5.091  82.900  1.00 22.36           O  
+ATOM     31  OD2 ASP B 205      58.895  -4.576  82.393  1.00 27.91           O1-
+ATOM     32  N   ASP B 207      55.214  -6.316  84.865  1.00 34.95           N  
+ATOM     33  CA  ASP B 207      56.006  -7.512  85.096  1.00 33.76           C  
+ATOM     34  C   ASP B 207      57.274  -7.223  85.883  1.00 28.32           C  
+ATOM     35  O   ASP B 207      58.007  -8.158  86.226  1.00 29.95           O  
+ATOM     36  CB  ASP B 207      56.379  -8.145  83.748  1.00 38.87           C  
+ATOM     37  CG  ASP B 207      56.509  -9.653  83.827  1.00 54.10           C  
+ATOM     38  OD1 ASP B 207      57.469 -10.191  83.236  1.00 53.71           O  
+ATOM     39  OD2 ASP B 207      55.646 -10.296  84.473  1.00 65.32           O1-
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7   13
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    8   14   21
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   13   20
+CONECT   22   20   23
+CONECT   23   22
+END

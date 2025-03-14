@@ -1,0 +1,25 @@
+HETATM    1  C1  GAL A   3      21.388 -11.835 -10.175  1.00 34.83           C  
+HETATM    2  O1  GAL A   3      22.500 -12.732 -10.203  1.00  0.00           O  
+HETATM    3  C2  GAL A   3      20.094 -12.615 -10.450  1.00 34.01           C  
+HETATM    4  O2  GAL A   3      20.208 -13.364 -11.560  1.00 34.47           O  
+HETATM    5  C3  GAL A   3      18.879 -11.688 -10.367  1.00 32.64           C  
+HETATM    6  O3  GAL A   3      17.683 -12.474 -10.477  1.00 31.90           O  
+HETATM    7  C4  GAL A   3      18.890 -10.922  -9.042  1.00 32.39           C  
+HETATM    8  O4  GAL A   3      18.819 -11.734  -7.940  1.00 30.80           O  
+HETATM    9  C5  GAL A   3      20.199 -10.143  -9.000  1.00 34.89           C  
+HETATM   10  O5  GAL A   3      21.280 -11.086  -8.963  1.00 33.06           O  
+HETATM   11  C6  GAL A   3      20.279  -9.185  -7.812  1.00 36.49           C  
+HETATM   12  O6  GAL A   3      21.652  -9.006  -7.494  1.00 39.69           O  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

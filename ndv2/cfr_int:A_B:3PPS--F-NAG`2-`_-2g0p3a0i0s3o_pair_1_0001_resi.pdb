@@ -1,0 +1,43 @@
+HETATM    1  C1  NAG A   2      31.226   5.527  19.666  1.00 19.03           C  
+HETATM    2  O1  NAG A   2      31.172   4.774  18.453  1.00  0.00           O  
+HETATM    3  C2  NAG A   2      31.623   6.974  19.352  1.00 20.04           C  
+HETATM    4  N2  NAG A   2      32.856   7.148  18.600  1.00  7.54           N  
+HETATM    5  C3  NAG A   2      31.627   7.811  20.627  1.00 20.25           C  
+HETATM    6  O3  NAG A   2      32.050   9.129  20.320  1.00 16.87           O  
+HETATM    7  C4  NAG A   2      30.221   7.761  21.227  1.00 18.41           C  
+HETATM    8  O4  NAG A   2      30.231   8.277  22.546  1.00 25.33           O  
+HETATM    9  C5  NAG A   2      29.749   6.307  21.322  1.00 16.39           C  
+HETATM   10  O5  NAG A   2      29.891   5.598  20.108  1.00 20.71           O  
+HETATM   11  C6  NAG A   2      28.293   6.207  21.743  1.00 13.28           C  
+HETATM   12  O6  NAG A   2      27.509   6.594  20.641  1.00 13.44           O  
+HETATM   13  C7  NAG A   2      34.005   6.491  18.771  1.00 21.27           C  
+HETATM   14  O7  NAG A   2      34.802   6.308  17.836  1.00  7.28           O  
+HETATM   15  C8  NAG A   2      34.331   6.004  20.162  1.00 28.65           C  
+ATOM     16  N   ARG B  71      27.203  12.051  12.400  1.00 18.65           N  
+ATOM     17  CA  ARG B  71      26.383  12.355  13.562  1.00 18.44           C  
+ATOM     18  C   ARG B  71      25.982  13.813  13.553  1.00 17.52           C  
+ATOM     19  O   ARG B  71      26.780  14.676  13.207  1.00 17.74           O  
+ATOM     20  CB  ARG B  71      27.163  12.033  14.842  1.00 21.50           C  
+ATOM     21  CG  ARG B  71      26.330  12.089  16.099  1.00 21.21           C  
+ATOM     22  CD  ARG B  71      26.874  11.145  17.142  1.00 20.57           C  
+ATOM     23  NE  ARG B  71      26.051  11.154  18.348  1.00 21.02           N  
+ATOM     24  CZ  ARG B  71      26.228  10.329  19.371  1.00 18.45           C  
+ATOM     25  NH1 ARG B  71      27.211   9.434  19.333  1.00 18.96           N1+
+ATOM     26  NH2 ARG B  71      25.437  10.409  20.433  1.00 14.76           N  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

@@ -1,0 +1,38 @@
+HETATM    1  C1  NGA A   3      25.701  35.952  45.847  1.00 36.05           C  
+HETATM    2  O1  NGA A   3      24.760  37.014  46.007  1.00  0.00           O  
+HETATM    3  C2  NGA A   3      25.352  35.142  44.586  1.00 30.24           C  
+HETATM    4  N2  NGA A   3      23.998  34.648  44.619  1.00 27.33           N  
+HETATM    5  C3  NGA A   3      26.321  33.993  44.251  1.00 32.25           C  
+HETATM    6  O3  NGA A   3      26.284  33.524  42.901  1.00 29.53           O  
+HETATM    7  C4  NGA A   3      27.748  34.504  44.388  1.00 35.15           C  
+HETATM    8  O4  NGA A   3      28.075  35.421  43.364  1.00 37.76           O  
+HETATM    9  C5  NGA A   3      27.945  35.285  45.701  1.00 40.60           C  
+HETATM   10  O5  NGA A   3      27.075  36.370  45.801  1.00 36.41           O  
+HETATM   11  C6  NGA A   3      29.335  35.885  45.693  1.00 46.55           C  
+HETATM   12  O6  NGA A   3      29.928  35.673  46.974  1.00 53.72           O  
+HETATM   13  C7  NGA A   3      23.163  34.997  43.683  1.00 24.68           C  
+HETATM   14  O7  NGA A   3      23.559  35.587  42.712  1.00 20.67           O  
+HETATM   15  C8  NGA A   3      21.712  34.767  43.922  1.00 26.55           C  
+ATOM     16  N   SER B  82      19.958  40.319  46.808  1.00 19.63           N  
+ATOM     17  CA  SER B  82      20.810  39.799  45.712  1.00 18.72           C  
+ATOM     18  C   SER B  82      20.592  40.681  44.485  1.00 20.19           C  
+ATOM     19  O   SER B  82      19.439  41.038  44.233  1.00 21.14           O  
+ATOM     20  CB  SER B  82      20.456  38.395  45.442  1.00 20.15           C  
+ATOM     21  OG  SER B  82      21.106  37.915  44.264  1.00 22.50           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

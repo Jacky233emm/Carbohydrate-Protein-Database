@@ -1,0 +1,25 @@
+HETATM    1  C1  Fru A   2      -9.927  13.715  35.000  1.00 19.38           C  
+HETATM    2  O1  Fru A   2      -9.648  12.453  34.422  1.00 17.94           O  
+HETATM    3  C2  Fru A   2      -8.664  14.559  35.121  1.00 20.65           C  
+HETATM    4  O2  Fru A   2      -8.916  15.645  36.013  1.00 20.56           O  
+HETATM    5  C3  Fru A   2      -8.156  15.141  33.800  1.00 22.31           C  
+HETATM    6  O3  Fru A   2      -8.752  16.382  33.488  1.00 22.98           O  
+HETATM    7  C4  Fru A   2      -6.678  15.312  34.116  1.00 22.26           C  
+HETATM    8  O4  Fru A   2      -5.938  15.508  32.933  1.00 23.33           O  
+HETATM    9  C5  Fru A   2      -6.389  14.010  34.885  1.00 22.19           C  
+HETATM   10  O5  Fru A   2      -7.591  13.732  35.576  1.00 20.40           O  
+HETATM   11  C6  Fru A   2      -5.209  14.018  35.870  1.00 20.96           C  
+HETATM   12  O6  Fru A   2      -5.520  14.794  37.007  1.00 23.74           O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4    5   10
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    3    9
+CONECT   11    9   12
+CONECT   12   11
+END

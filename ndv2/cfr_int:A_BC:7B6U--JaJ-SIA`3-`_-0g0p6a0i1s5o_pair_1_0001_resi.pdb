@@ -1,0 +1,63 @@
+ATOM      1  N   ARG B 125     -29.772  86.974   0.044  1.00 23.71      I    N  
+ATOM      2  CA  ARG B 125     -30.019  85.783   0.878  1.00 23.49      I    C  
+ATOM      3  C   ARG B 125     -30.712  84.721   0.033  1.00 23.95      I    C  
+ATOM      4  O   ARG B 125     -31.393  85.091  -0.948  1.00 28.86      I    O  
+ATOM      5  CB  ARG B 125     -30.833  86.163   2.106  1.00 24.12      I    C  
+ATOM      6  CG  ARG B 125     -30.134  87.230   2.935  1.00 24.13      I    C  
+ATOM      7  CD  ARG B 125     -30.783  87.496   4.262  1.00 26.30      I    C  
+ATOM      8  NE  ARG B 125     -30.440  86.464   5.225  1.00 25.20      I    N  
+ATOM      9  CZ  ARG B 125     -30.382  86.667   6.534  1.00 26.17      I    C  
+ATOM     10  NH1 ARG B 125     -30.635  87.866   7.024  1.00 28.26      I    N1+
+ATOM     11  NH2 ARG B 125     -30.039  85.680   7.346  1.00 26.45      I    N  
+TER   
+ATOM     12  N   THR C  61     -26.066  84.937  10.017  1.00 23.98      J    N  
+ATOM     13  CA  THR C  61     -26.644  86.288   9.861  1.00 23.42      J    C  
+ATOM     14  C   THR C  61     -25.949  86.949   8.674  1.00 22.78      J    C  
+ATOM     15  O   THR C  61     -24.813  86.568   8.372  1.00 25.36      J    O  
+ATOM     16  CB  THR C  61     -26.591  87.072  11.180  1.00 22.67      J    C  
+ATOM     17  CG2 THR C  61     -27.375  86.362  12.259  1.00 22.59      J    C  
+ATOM     18  OG1 THR C  61     -25.239  87.292  11.592  1.00 20.62      J    O  
+TER   
+HETATM   19  C1  SIA A   3     -27.121  90.037  14.991  1.00 34.37      X    C  
+HETATM   20  O1A SIA A   3     -27.962  89.245  14.511  1.00 33.46      X    O  
+HETATM   21  O1B SIA A   3     -26.475  89.698  15.993  1.00 40.73      X    O  
+HETATM   22  C2  SIA A   3     -26.856  91.414  14.420  1.00 31.91      X    C  
+HETATM   23  O2  SIA A   3     -27.694  92.322  15.138  1.00  0.00      X    O  
+HETATM   24  C3  SIA A   3     -25.409  91.880  14.516  1.00 30.11      X    C  
+HETATM   25  C4  SIA A   3     -24.539  91.030  13.565  1.00 28.33      X    C  
+HETATM   26  O4  SIA A   3     -23.178  91.488  13.533  1.00 28.96      X    O  
+HETATM   27  C5  SIA A   3     -25.117  91.120  12.141  1.00 27.83      X    C  
+HETATM   28  N5  SIA A   3     -24.408  90.259  11.233  1.00 26.38      X    N  
+HETATM   29  C6  SIA A   3     -26.585  90.730  12.133  1.00 30.93      X    C  
+HETATM   30  O6  SIA A   3     -27.271  91.598  13.063  1.00 32.83      X    O  
+HETATM   31  C7  SIA A   3     -27.330  90.835  10.793  1.00 32.27      X    C  
+HETATM   32  O7  SIA A   3     -27.143  92.155  10.251  1.00 31.29      X    O  
+HETATM   33  C8  SIA A   3     -28.822  90.559  11.003  1.00 32.73      X    C  
+HETATM   34  O8  SIA A   3     -29.043  89.426  11.892  1.00 32.80      X    O  
+HETATM   35  C9  SIA A   3     -29.561  90.226   9.707  1.00 35.97      X    C  
+HETATM   36  O9  SIA A   3     -29.402  88.810   9.445  1.00 34.16      X    O  
+HETATM   37  C10 SIA A   3     -23.483  90.630  10.352  1.00 25.16      X    C  
+HETATM   38  O10 SIA A   3     -23.021  91.767  10.226  1.00 24.20      X    O  
+HETATM   39  C11 SIA A   3     -23.046  89.498   9.434  1.00 23.05      X    C  
+CONECT   19   20   21   22
+CONECT   20   19
+CONECT   21   19
+CONECT   22   19   23   24   30
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   27
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27   37
+CONECT   29   27   30   31
+CONECT   30   22   29
+CONECT   31   29   32   33
+CONECT   32   31
+CONECT   33   31   34   35
+CONECT   34   33
+CONECT   35   33   36
+CONECT   36   35
+CONECT   37   28   38   39
+CONECT   38   37
+CONECT   39   37
+END

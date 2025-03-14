@@ -1,0 +1,52 @@
+HETATM    1  C1  SIA A   2     -29.784  -2.429  -8.659  1.00 60.83           C  
+HETATM    2  O1A SIA A   2     -28.715  -3.029  -8.974  1.00 54.48           O  
+HETATM    3  O1B SIA A   2     -29.955  -1.557  -7.771  1.00 63.45           O  
+HETATM    4  C2  SIA A   2     -31.044  -2.868  -9.533  1.00 72.66           C  
+HETATM    5  O2  SIA A   2     -31.524  -4.106  -9.005  1.00  0.00           O  
+HETATM    6  C3  SIA A   2     -32.182  -1.831  -9.517  1.00 63.16           C  
+HETATM    7  C4  SIA A   2     -31.728  -0.457 -10.031  1.00 55.88           C  
+HETATM    8  O4  SIA A   2     -32.755   0.553 -10.064  1.00 47.22           O  
+HETATM    9  C5  SIA A   2     -31.207  -0.573 -11.463  1.00 58.98           C  
+HETATM   10  N5  SIA A   2     -30.666   0.732 -11.863  1.00 54.73           N  
+HETATM   11  C6  SIA A   2     -30.174  -1.728 -11.587  1.00 66.67           C  
+HETATM   12  O6  SIA A   2     -30.624  -2.922 -10.942  1.00 71.01           O  
+HETATM   13  C7  SIA A   2     -29.989  -2.151 -13.061  1.00 57.67           C  
+HETATM   14  O7  SIA A   2     -31.104  -2.930 -13.473  1.00 59.50           O  
+HETATM   15  C8  SIA A   2     -28.640  -2.873 -13.306  1.00 51.39           C  
+HETATM   16  O8  SIA A   2     -28.426  -2.974 -14.711  1.00 50.49           O  
+HETATM   17  C9  SIA A   2     -28.538  -4.236 -12.628  1.00 52.88           C  
+HETATM   18  O9  SIA A   2     -27.599  -4.151 -11.552  1.00 57.12           O  
+HETATM   19  C10 SIA A   2     -31.174   1.475 -12.879  1.00 55.82           C  
+HETATM   20  O10 SIA A   2     -32.059   1.079 -13.636  1.00 59.22           O  
+HETATM   21  C11 SIA A   2     -30.580   2.871 -13.054  1.00 46.01           C  
+ATOM     22  N   ASP B  36     -25.683   3.701 -10.846  1.00 29.30           N  
+ATOM     23  CA  ASP B  36     -25.713   3.869  -9.398  1.00 27.62           C  
+ATOM     24  C   ASP B  36     -24.301   3.770  -8.839  1.00 26.59           C  
+ATOM     25  O   ASP B  36     -24.072   3.148  -7.806  1.00 32.75           O  
+ATOM     26  CB  ASP B  36     -26.635   2.819  -8.755  1.00 31.42           C  
+ATOM     27  CG  ASP B  36     -28.015   2.780  -9.401  1.00 44.56           C  
+ATOM     28  OD1 ASP B  36     -28.747   3.785  -9.290  1.00 45.51           O  
+ATOM     29  OD2 ASP B  36     -28.374   1.743 -10.012  1.00 49.03           O1-
+TER   
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    5    6   12
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9   19
+CONECT   11    9   12   13
+CONECT   12    4   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17
+CONECT   19   10   20   21
+CONECT   20   19
+CONECT   21   19
+END

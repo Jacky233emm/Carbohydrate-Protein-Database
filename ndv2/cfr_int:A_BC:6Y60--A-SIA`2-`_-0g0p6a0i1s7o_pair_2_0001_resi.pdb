@@ -1,0 +1,81 @@
+ATOM      1  N   THR B  69       4.360   2.980 -10.639  1.00 24.92      A    N  
+ATOM      2  CA  THR B  69       4.388   3.903  -9.486  1.00 26.73      A    C  
+ATOM      3  C   THR B  69       3.783   5.241  -9.920  1.00 24.71      A    C  
+ATOM      4  O   THR B  69       3.842   5.594 -11.126  1.00 24.12      A    O  
+ATOM      5  CB  THR B  69       5.803   4.027  -8.898  1.00 28.23      A    C  
+ATOM      6  CG2 THR B  69       6.389   2.680  -8.511  1.00 27.86      A    C  
+ATOM      7  OG1 THR B  69       6.648   4.700  -9.835  1.00 31.79      A    O  
+ATOM      8  N   THR B  76       7.915  16.292  -8.786  1.00 30.93      A    N  
+ATOM      9  CA  THR B  76       8.812  15.147  -8.481  1.00 31.66      A    C  
+ATOM     10  C   THR B  76       8.373  13.896  -9.235  1.00 29.06      A    C  
+ATOM     11  O   THR B  76       8.682  12.775  -8.800  1.00 31.31      A    O  
+ATOM     12  CB  THR B  76       8.875  14.845  -6.977  1.00 37.65      A    C  
+ATOM     13  CG2 THR B  76       9.504  15.975  -6.190  1.00 40.89      A    C  
+ATOM     14  OG1 THR B  76       7.542  14.580  -6.549  1.00 41.32      A    O  
+ATOM     15  N   ARG B  78       8.820  11.213 -11.654  1.00 31.39      A    N  
+ATOM     16  CA  ARG B  78      10.028  10.572 -12.216  1.00 34.98      A    C  
+ATOM     17  C   ARG B  78       9.666   9.126 -12.491  1.00 33.40      A    C  
+ATOM     18  O   ARG B  78       9.919   8.275 -11.645  1.00 32.21      A    O  
+ATOM     19  CB  ARG B  78      11.213  10.627 -11.238  1.00 37.60      A    C  
+ATOM     20  CG  ARG B  78      11.636  12.026 -10.811  1.00 47.09      A    C  
+ATOM     21  CD  ARG B  78      12.949  12.082 -10.023  1.00 50.48      A    C  
+ATOM     22  NE  ARG B  78      13.192  13.448  -9.547  1.00 57.12      A    N  
+ATOM     23  CZ  ARG B  78      12.855  13.928  -8.351  1.00 55.85      A    C  
+ATOM     24  NH1 ARG B  78      12.276  13.155  -7.450  1.00 56.03      A    N1+
+ATOM     25  NH2 ARG B  78      13.086  15.202  -8.062  1.00 53.40      A    N  
+TER   
+ATOM     26  N   ARG C 133      -5.471   8.086  -7.501  1.00 24.78      E    N  
+ATOM     27  CA  ARG C 133      -5.199   6.648  -7.644  1.00 23.70      E    C  
+ATOM     28  C   ARG C 133      -6.013   5.873  -6.622  1.00 23.35      E    C  
+ATOM     29  O   ARG C 133      -6.540   6.490  -5.742  1.00 25.36      E    O  
+ATOM     30  CB  ARG C 133      -3.697   6.400  -7.516  1.00 25.81      E    C  
+ATOM     31  CG  ARG C 133      -3.156   6.415  -6.106  1.00 26.92      E    C  
+ATOM     32  CD  ARG C 133      -1.632   6.232  -6.125  1.00 29.10      E    C  
+ATOM     33  NE  ARG C 133      -1.179   4.984  -6.718  1.00 27.93      E    N  
+ATOM     34  CZ  ARG C 133       0.049   4.490  -6.604  1.00 28.73      E    C  
+ATOM     35  NH1 ARG C 133       0.972   5.130  -5.910  1.00 29.41      E    N1+
+ATOM     36  NH2 ARG C 133       0.347   3.340  -7.169  1.00 30.52      E    N  
+TER   
+HETATM   37  C1  SIA A   2       9.834   4.678  -6.260  1.00 37.16      K    C  
+HETATM   38  O1A SIA A   2      10.693   4.288  -7.098  1.00 41.20      K    O  
+HETATM   39  O1B SIA A   2       8.953   3.919  -5.826  1.00 32.05      K    O  
+HETATM   40  C2  SIA A   2       9.855   6.115  -5.801  1.00 38.15      K    C  
+HETATM   41  O2  SIA A   2      10.606   6.242  -4.592  1.00  0.00      K    O  
+HETATM   42  C3  SIA A   2      10.531   6.939  -6.911  1.00 33.89      K    C  
+HETATM   43  C4  SIA A   2       9.688   7.119  -8.184  1.00 35.94      K    C  
+HETATM   44  O4  SIA A   2      10.293   8.117  -9.043  1.00 31.75      K    O  
+HETATM   45  C5  SIA A   2       8.247   7.552  -7.860  1.00 31.84      K    C  
+HETATM   46  N5  SIA A   2       7.451   7.511  -9.064  1.00 28.82      K    N  
+HETATM   47  C6  SIA A   2       7.714   6.564  -6.834  1.00 32.16      K    C  
+HETATM   48  O6  SIA A   2       8.529   6.677  -5.665  1.00 34.99      K    O  
+HETATM   49  C7  SIA A   2       6.259   6.777  -6.436  1.00 31.05      K    C  
+HETATM   50  O7  SIA A   2       6.064   8.138  -6.090  1.00 28.39      K    O  
+HETATM   51  C8  SIA A   2       5.826   5.872  -5.276  1.00 28.95      K    C  
+HETATM   52  O8  SIA A   2       6.355   4.566  -5.483  1.00 29.83      K    O  
+HETATM   53  C9  SIA A   2       4.285   5.757  -5.161  1.00 29.12      K    C  
+HETATM   54  O9  SIA A   2       3.719   4.821  -6.112  1.00 24.64      K    O  
+HETATM   55  C10 SIA A   2       7.124   8.534  -9.795  1.00 28.07      K    C  
+HETATM   56  O10 SIA A   2       7.510   9.670  -9.573  1.00 29.97      K    O  
+HETATM   57  C11 SIA A   2       6.275   8.175 -10.985  1.00 27.69      K    C  
+CONECT   37   38   39   40
+CONECT   38   37
+CONECT   39   37
+CONECT   40   37   41   42   48
+CONECT   41   40
+CONECT   42   40   43
+CONECT   43   42   44   45
+CONECT   44   43
+CONECT   45   43   46   47
+CONECT   46   45   55
+CONECT   47   45   48   49
+CONECT   48   40   47
+CONECT   49   47   50   51
+CONECT   50   49
+CONECT   51   49   52   53
+CONECT   52   51
+CONECT   53   51   54
+CONECT   54   53
+CONECT   55   46   56   57
+CONECT   56   55
+CONECT   57   55
+END

@@ -1,0 +1,44 @@
+ATOM      1  N   TYR C  15       3.119  20.037   8.696  1.00 37.26      B    N  
+ATOM      2  CA  TYR C  15       4.479  19.737   8.162  1.00 36.84      B    C  
+ATOM      3  C   TYR C  15       5.559  20.128   9.173  1.00 35.37      B    C  
+ATOM      4  O   TYR C  15       6.593  20.701   8.814  1.00 37.06      B    O  
+ATOM      5  CB  TYR C  15       4.679  20.410   6.804  1.00 35.65      B    C  
+ATOM      6  CG  TYR C  15       3.783  19.824   5.752  1.00 38.01      B    C  
+ATOM      7  CD1 TYR C  15       2.484  20.290   5.567  1.00 36.81      B    C  
+ATOM      8  CD2 TYR C  15       4.213  18.762   4.977  1.00 35.79      B    C  
+ATOM      9  CE1 TYR C  15       1.661  19.736   4.600  1.00 37.88      B    C  
+ATOM     10  CE2 TYR C  15       3.405  18.203   4.003  1.00 36.11      B    C  
+ATOM     11  CZ  TYR C  15       2.121  18.683   3.829  1.00 37.43      B    C  
+ATOM     12  OH  TYR C  15       1.352  18.112   2.871  1.00 37.60      B    O  
+TER   
+HETATM   13  C1  NAG A   2      -3.147  15.255   3.747  1.00 39.83      G    C  
+HETATM   14  O1  NAG A   2      -2.876  13.910   3.348  1.00  0.00      G    O  
+HETATM   15  C2  NAG A   2      -2.020  16.179   3.239  1.00 42.35      G    C  
+HETATM   16  N2  NAG A   2      -0.696  15.859   3.770  1.00 38.25      G    N  
+HETATM   17  C3  NAG A   2      -2.264  17.658   3.574  1.00 46.84      G    C  
+HETATM   18  O3  NAG A   2      -1.289  18.516   2.937  1.00 43.67      G    O  
+HETATM   19  C4  NAG A   2      -3.702  18.033   3.219  1.00 47.87      G    C  
+HETATM   20  O4  NAG A   2      -3.957  19.363   3.664  1.00 42.79      G    O  
+HETATM   21  C5  NAG A   2      -4.675  17.048   3.894  1.00 51.28      G    C  
+HETATM   22  O5  NAG A   2      -4.432  15.721   3.391  1.00 43.96      G    O  
+HETATM   23  C6  NAG A   2      -6.161  17.399   3.662  1.00 56.39      G    C  
+HETATM   24  O6  NAG A   2      -6.331  18.042   2.372  1.00 59.66      G    O  
+HETATM   25  C7  NAG A   2       0.159  15.091   3.129  1.00 36.17      G    C  
+HETATM   26  O7  NAG A   2      -0.104  14.641   2.038  1.00 42.32      G    O  
+HETATM   27  C8  NAG A   2       1.460  14.839   3.816  1.00 32.76      G    C  
+CONECT   13   14   15   22
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15   25
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   13   21
+CONECT   23   21   24
+CONECT   24   23
+CONECT   25   16   26   27
+CONECT   26   25
+CONECT   27   25
+END

@@ -1,0 +1,32 @@
+HETATM    1  C1  FUC A   4      66.804  13.464  13.737  1.00 71.18           C  
+HETATM    2  O1  FUC A   4      67.927  13.897  14.505  1.00  0.00           O  
+HETATM    3  C2  FUC A   4      67.290  12.910  12.393  1.00 67.87           C  
+HETATM    4  O2  FUC A   4      68.057  13.877  11.699  1.00 73.69           O  
+HETATM    5  C3  FUC A   4      68.047  11.588  12.563  1.00 69.70           C  
+HETATM    6  O3  FUC A   4      68.228  10.964  11.296  1.00 74.01           O  
+HETATM    7  C4  FUC A   4      67.217  10.589  13.404  1.00 71.42           C  
+HETATM    8  O4  FUC A   4      66.045  10.179  12.695  1.00 64.96           O  
+HETATM    9  C5  FUC A   4      66.797  11.242  14.705  1.00 69.32           C  
+HETATM   10  O5  FUC A   4      66.104  12.472  14.466  1.00 71.07           O  
+HETATM   11  C6  FUC A   4      65.858  10.374  15.511  1.00 69.68           C  
+ATOM     12  N   ASN C  95      68.266   6.682  15.987  1.00 59.18           N  
+ATOM     13  CA  ASN C  95      66.968   6.066  15.652  1.00 66.71           C  
+ATOM     14  C   ASN C  95      66.700   4.823  16.490  1.00 63.44           C  
+ATOM     15  O   ASN C  95      67.405   3.826  16.351  1.00 65.47           O  
+ATOM     16  CB  ASN C  95      66.895   5.639  14.184  1.00 62.35           C  
+ATOM     17  CG  ASN C  95      66.767   6.806  13.234  1.00 65.60           C  
+ATOM     18  ND2 ASN C  95      67.551   6.810  12.171  1.00 69.03           N  
+ATOM     19  OD1 ASN C  95      65.942   7.670  13.435  1.00 69.71           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9
+END

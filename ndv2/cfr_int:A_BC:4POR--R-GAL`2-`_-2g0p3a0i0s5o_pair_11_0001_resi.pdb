@@ -1,0 +1,35 @@
+HETATM    1  C1  GAL A   2      50.897   2.172  24.411  1.00 35.60           C  
+HETATM    2  O1  GAL A   2      51.704   1.580  25.430  1.00  0.00           O  
+HETATM    3  C2  GAL A   2      50.071   1.079  23.711  1.00 32.70           C  
+HETATM    4  O2  GAL A   2      50.912   0.106  23.135  1.00 27.57           O  
+HETATM    5  C3  GAL A   2      49.141   1.659  22.648  1.00 31.21           C  
+HETATM    6  O3  GAL A   2      48.242   0.663  22.162  1.00 29.91           O  
+HETATM    7  C4  GAL A   2      48.384   2.878  23.197  1.00 31.65           C  
+HETATM    8  O4  GAL A   2      47.373   2.443  24.082  1.00 33.31           O  
+HETATM    9  C5  GAL A   2      49.347   3.872  23.867  1.00 33.92           C  
+HETATM   10  O5  GAL A   2      50.065   3.218  24.894  1.00 33.52           O  
+HETATM   11  C6  GAL A   2      48.640   5.110  24.416  1.00 35.93           C  
+HETATM   12  O6  GAL A   2      47.873   5.710  23.390  1.00 41.52           O  
+ATOM     13  N   LYS C  78      49.030  -2.575  23.099  1.00 34.15           N  
+ATOM     14  CA  LYS C  78      49.655  -3.558  22.222  1.00 33.75           C  
+ATOM     15  C   LYS C  78      50.158  -4.747  23.064  1.00 34.05           C  
+ATOM     16  O   LYS C  78      49.947  -5.905  22.694  1.00 33.36           O  
+ATOM     17  CB  LYS C  78      50.787  -2.899  21.405  1.00 34.77           C  
+ATOM     18  CG  LYS C  78      51.684  -3.823  20.574  1.00 35.11           C  
+ATOM     19  CD  LYS C  78      50.955  -4.583  19.472  1.00 33.63           C  
+ATOM     20  CE  LYS C  78      51.931  -5.455  18.689  1.00 34.34           C  
+ATOM     21  NZ  LYS C  78      51.286  -6.298  17.634  1.00 32.76           N1+
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+END

@@ -1,0 +1,30 @@
+HETATM    1  C1  FUC A   4      58.350  69.545 -44.603  1.00 21.33           C  
+HETATM    2  O1  FUC A   4      58.782  69.946 -45.903  1.00  0.00           O  
+HETATM    3  C2  FUC A   4      57.732  68.159 -44.682  1.00 30.22           C  
+HETATM    4  O2  FUC A   4      56.613  68.184 -45.579  1.00 37.23           O  
+HETATM    5  C3  FUC A   4      58.768  67.170 -45.190  1.00 42.48           C  
+HETATM    6  O3  FUC A   4      58.229  65.842 -45.139  1.00 40.20           O  
+HETATM    7  C4  FUC A   4      60.013  67.247 -44.320  1.00 19.52           C  
+HETATM    8  O4  FUC A   4      59.699  66.793 -42.995  1.00 29.27           O  
+HETATM    9  C5  FUC A   4      60.502  68.684 -44.260  1.00 17.78           C  
+HETATM   10  O5  FUC A   4      59.473  69.519 -43.710  1.00 21.64           O  
+HETATM   11  C6  FUC A   4      61.750  68.763 -43.379  1.00 20.26           C  
+ATOM     12  N   SER B 437      60.778  62.897 -39.823  1.00 17.63           N  
+ATOM     13  CA  SER B 437      59.932  61.989 -40.595  1.00 23.44           C  
+ATOM     14  C   SER B 437      60.593  60.625 -40.754  1.00 22.90           C  
+ATOM     15  O   SER B 437      60.739  60.113 -41.869  1.00 28.62           O  
+ATOM     16  CB  SER B 437      59.585  62.579 -41.968  1.00 28.10           C  
+ATOM     17  OG  SER B 437      58.943  63.838 -41.845  1.00 36.78           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9
+END

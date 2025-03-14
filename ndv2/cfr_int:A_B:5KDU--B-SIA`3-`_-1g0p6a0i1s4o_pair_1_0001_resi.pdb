@@ -1,0 +1,52 @@
+HETATM    1  C1  SIA A   3       9.344  -1.977 -25.092  1.00 53.76           C  
+HETATM    2  O1A SIA A   3      10.186  -2.862 -24.806  1.00 49.49           O  
+HETATM    3  O1B SIA A   3       9.547  -1.112 -25.985  1.00 57.53           O  
+HETATM    4  C2  SIA A   3       8.046  -1.922 -24.303  1.00 52.00           C  
+HETATM    5  O2  SIA A   3       8.043  -0.709 -23.549  1.00  0.00           O  
+HETATM    6  C3  SIA A   3       6.806  -1.963 -25.207  1.00 50.74           C  
+HETATM    7  C4  SIA A   3       6.545  -3.377 -25.734  1.00 50.09           C  
+HETATM    8  O4  SIA A   3       5.333  -3.382 -26.496  1.00 57.10           O  
+HETATM    9  C5  SIA A   3       6.443  -4.399 -24.610  1.00 49.52           C  
+HETATM   10  N5  SIA A   3       6.233  -5.729 -25.183  1.00 51.38           N  
+HETATM   11  C6  SIA A   3       7.749  -4.313 -23.822  1.00 46.92           C  
+HETATM   12  O6  SIA A   3       7.977  -2.976 -23.323  1.00 50.16           O  
+HETATM   13  C7  SIA A   3       7.850  -5.279 -22.636  1.00 45.36           C  
+HETATM   14  O7  SIA A   3       6.631  -5.322 -21.857  1.00 47.96           O  
+HETATM   15  C8  SIA A   3       9.041  -4.863 -21.756  1.00 39.26           C  
+HETATM   16  O8  SIA A   3      10.166  -4.576 -22.616  1.00 37.33           O  
+HETATM   17  C9  SIA A   3       9.359  -5.935 -20.719  1.00 36.63           C  
+HETATM   18  O9  SIA A   3      10.605  -5.709 -20.035  1.00 31.81           O  
+HETATM   19  C10 SIA A   3       5.325  -6.636 -24.781  1.00 51.80           C  
+HETATM   20  O10 SIA A   3       4.558  -6.503 -23.825  1.00 54.66           O  
+HETATM   21  C11 SIA A   3       5.277  -7.853 -25.654  1.00 51.49           C  
+ATOM     22  N   ASN B 749      11.281 -10.599 -15.935  1.00 26.23           N  
+ATOM     23  CA  ASN B 749      11.620 -10.253 -17.282  1.00 28.27           C  
+ATOM     24  C   ASN B 749      12.811  -9.295 -17.356  1.00 30.44           C  
+ATOM     25  O   ASN B 749      12.817  -8.260 -16.677  1.00 27.58           O  
+ATOM     26  CB  ASN B 749      10.392  -9.594 -17.892  1.00 30.49           C  
+ATOM     27  CG  ASN B 749      10.556  -9.301 -19.350  1.00 33.11           C  
+ATOM     28  ND2 ASN B 749       9.923 -10.120 -20.170  1.00 32.81           N  
+ATOM     29  OD1 ASN B 749      11.220  -8.334 -19.741  1.00 31.41           O  
+TER   
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    5    6   12
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9   19
+CONECT   11    9   12   13
+CONECT   12    4   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17
+CONECT   19   10   20   21
+CONECT   20   19
+CONECT   21   19
+END

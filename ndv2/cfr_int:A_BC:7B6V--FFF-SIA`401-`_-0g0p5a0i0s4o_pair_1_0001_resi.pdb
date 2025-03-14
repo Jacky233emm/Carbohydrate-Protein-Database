@@ -1,0 +1,51 @@
+HETATM    1  C1  SIA A 401     -28.238 -33.811 -57.847  1.00 34.50      DA   C  
+HETATM    2  O1A SIA A 401     -28.083 -32.904 -58.713  1.00 42.58      DA   O  
+HETATM    3  O1B SIA A 401     -28.680 -33.569 -56.694  1.00 39.13      DA   O  
+HETATM    4  C2  SIA A 401     -27.823 -35.231 -58.157  1.00 32.16      DA   C  
+HETATM    5  O2  SIA A 401     -28.987 -35.971 -58.607  1.00 36.64      DA   O  
+HETATM    6  C3  SIA A 401     -26.708 -35.282 -59.201  1.00 33.12      DA   C  
+HETATM    7  C4  SIA A 401     -25.334 -34.765 -58.734  1.00 32.99      DA   C  
+HETATM    8  O4  SIA A 401     -24.352 -35.078 -59.765  1.00 32.14      DA   O  
+HETATM    9  C5  SIA A 401     -24.955 -35.364 -57.367  1.00 27.74      DA   C  
+HETATM   10  N5  SIA A 401     -23.802 -34.677 -56.809  1.00 27.27      DA   N  
+HETATM   11  C6  SIA A 401     -26.152 -35.250 -56.400  1.00 32.56      DA   C  
+HETATM   12  O6  SIA A 401     -27.309 -35.885 -56.978  1.00 29.38      DA   O  
+HETATM   13  C7  SIA A 401     -25.990 -35.936 -55.042  1.00 33.55      DA   C  
+HETATM   14  O7  SIA A 401     -25.508 -37.236 -55.296  1.00 32.05      DA   O  
+HETATM   15  C8  SIA A 401     -27.303 -36.130 -54.262  1.00 36.24      DA   C  
+HETATM   16  O8  SIA A 401     -27.938 -34.873 -53.932  1.00 40.36      DA   O  
+HETATM   17  C9  SIA A 401     -27.107 -36.952 -52.983  1.00 37.09      DA   C  
+HETATM   18  O9  SIA A 401     -28.384 -37.255 -52.398  1.00 35.66      DA   O  
+HETATM   19  C10 SIA A 401     -22.535 -35.120 -56.798  1.00 22.37      DA   C  
+HETATM   20  O10 SIA A 401     -22.212 -36.122 -57.443  1.00 20.44      DA   O  
+HETATM   21  C11 SIA A 401     -21.572 -34.321 -55.981  1.00 23.02      DA   C  
+ATOM     22  N   THR B  61     -23.942 -30.355 -53.151  1.00 19.06      F    N  
+ATOM     23  CA  THR B  61     -24.484 -31.728 -53.088  1.00 17.83      F    C  
+ATOM     24  C   THR B  61     -23.296 -32.643 -52.831  1.00 18.21      F    C  
+ATOM     25  O   THR B  61     -22.209 -32.302 -53.290  1.00 18.60      F    O  
+ATOM     26  CB  THR B  61     -25.275 -32.091 -54.357  1.00 17.18      F    C  
+ATOM     27  CG2 THR B  61     -26.470 -31.169 -54.525  1.00 18.55      F    C  
+ATOM     28  OG1 THR B  61     -24.443 -32.044 -55.527  1.00 20.57      F    O  
+TER   
+CONECT    1    2    3    4
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    5    6   12
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    9   19
+CONECT   11    9   12   13
+CONECT   12    4   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17
+CONECT   19   10   20   21
+CONECT   20   19
+CONECT   21   19
+END

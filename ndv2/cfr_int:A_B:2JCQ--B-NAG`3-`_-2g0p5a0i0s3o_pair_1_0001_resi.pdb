@@ -1,0 +1,44 @@
+HETATM    1  C1  NAG A   3       9.014 -12.977  12.863  1.00 13.58           C  
+HETATM    2  O1  NAG A   3       7.919 -12.575  13.690  1.00  0.00           O  
+HETATM    3  C2  NAG A   3       9.257 -11.917  11.790  1.00 12.17           C  
+HETATM    4  N2  NAG A   3       8.019 -11.808  10.998  1.00 12.56           N  
+HETATM    5  C3  NAG A   3      10.454 -12.285  10.928  1.00 14.66           C  
+HETATM    6  O3  NAG A   3      10.755 -11.160  10.148  1.00 15.44           O  
+HETATM    7  C4  NAG A   3      11.664 -12.635  11.813  1.00 14.83           C  
+HETATM    8  O4  NAG A   3      12.716 -13.165  11.030  1.00 19.31           O  
+HETATM    9  C5  NAG A   3      11.287 -13.631  12.899  1.00 14.27           C  
+HETATM   10  O5  NAG A   3      10.176 -13.143  13.640  1.00 14.08           O  
+HETATM   11  C6  NAG A   3      12.434 -13.910  13.885  1.00 18.13           C  
+HETATM   12  O6  NAG A   3      12.822 -12.726  14.560  1.00 23.54           O  
+HETATM   13  C7  NAG A   3       7.292 -10.695  10.874  1.00 10.34           C  
+HETATM   14  O7  NAG A   3       7.590  -9.572  11.396  1.00 11.68           O  
+HETATM   15  C8  NAG A   3       6.027 -10.924  10.088  1.00 10.10           C  
+ATOM     16  N   TYR B  46      10.007  -1.521  10.188  1.00  7.27           N  
+ATOM     17  CA  TYR B  46       8.664  -1.155  10.734  1.00  7.45           C  
+ATOM     18  C   TYR B  46       8.773   0.238  11.322  1.00  7.01           C  
+ATOM     19  O   TYR B  46       9.507   0.438  12.287  1.00  9.55           O  
+ATOM     20  CB  TYR B  46       8.221  -2.145  11.809  1.00  6.96           C  
+ATOM     21  CG  TYR B  46       7.805  -3.521  11.342  1.00  6.19           C  
+ATOM     22  CD1 TYR B  46       8.411  -4.650  11.827  1.00  6.29           C  
+ATOM     23  CD2 TYR B  46       6.770  -3.677  10.464  1.00  5.65           C  
+ATOM     24  CE1 TYR B  46       8.032  -5.895  11.439  1.00  6.82           C  
+ATOM     25  CE2 TYR B  46       6.362  -4.906  10.060  1.00  5.45           C  
+ATOM     26  CZ  TYR B  46       6.975  -6.029  10.554  1.00  6.28           C  
+ATOM     27  OH  TYR B  46       6.539  -7.275  10.155  1.00  7.34           O  
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3   13
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    4   14   15
+CONECT   14   13
+CONECT   15   13
+END

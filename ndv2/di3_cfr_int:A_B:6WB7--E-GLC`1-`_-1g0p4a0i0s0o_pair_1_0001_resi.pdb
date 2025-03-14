@@ -1,0 +1,57 @@
+HETATM    1  C1  GLC A   1       6.092  25.659 -14.263  1.00 42.36           C  
+HETATM    2  O1  GLC A   1       6.662  25.188 -13.034  1.00 52.93           O  
+HETATM    3  C2  GLC A   1       6.874  25.073 -15.443  1.00 36.50           C  
+HETATM    4  O2  GLC A   1       7.151  23.693 -15.171  1.00 43.28           O  
+HETATM    5  C3  GLC A   1       8.200  25.791 -15.682  1.00 35.56           C  
+HETATM    6  O3  GLC A   1       8.804  25.394 -16.923  1.00 36.84           O  
+HETATM    7  C4  GLC A   1       8.001  27.296 -15.677  1.00 35.07           C  
+HETATM    8  O4  GLC A   1       9.280  27.891 -15.856  1.00 37.25           O  
+HETATM    9  C5  GLC A   1       7.398  27.660 -14.327  1.00 33.62           C  
+HETATM   10  O5  GLC A   1       6.088  27.093 -14.272  1.00 42.33           O  
+HETATM   11  C6  GLC A   1       7.326  29.167 -14.104  1.00 41.58           C  
+HETATM   12  O6  GLC A   1       6.210  29.724 -14.809  1.00 42.03           O  
+HETATM   13  C1  GLC A   2       9.386  28.616 -17.077  1.00 28.17           C  
+HETATM   14  C2  GLC A   2      10.589  28.126 -17.879  1.00 27.30           C  
+HETATM   15  O2  GLC A   2      10.487  26.715 -18.093  1.00 31.97           O  
+HETATM   16  C3  GLC A   2      11.882  28.440 -17.137  1.00 26.54           C  
+HETATM   17  O3  GLC A   2      13.008  28.055 -17.928  1.00 27.69           O  
+HETATM   18  C4  GLC A   2      11.931  29.930 -16.824  1.00 27.15           C  
+HETATM   19  O4  GLC A   2      13.141  30.253 -16.135  1.00 27.05           O  
+HETATM   20  C5  GLC A   2      10.703  30.293 -15.995  1.00 27.32           C  
+HETATM   21  O5  GLC A   2       9.528  29.999 -16.754  1.00 33.34           O  
+HETATM   22  C6  GLC A   2      10.703  31.770 -15.634  1.00 26.76           C  
+HETATM   23  O6  GLC A   2       9.440  32.111 -15.048  1.00 34.54           O  
+ATOM     24  N   GLU B 116       4.991  30.280  -8.488  1.00 28.69           N  
+ATOM     25  CA  GLU B 116       4.043  30.959  -9.357  1.00 35.38           C  
+ATOM     26  C   GLU B 116       2.612  30.845  -8.851  1.00 34.18           C  
+ATOM     27  O   GLU B 116       2.147  29.762  -8.506  1.00 32.02           O  
+ATOM     28  CB  GLU B 116       4.110  30.400 -10.778  1.00 36.07           C  
+ATOM     29  CG  GLU B 116       3.038  30.980 -11.685  1.00 44.75           C  
+ATOM     30  CD  GLU B 116       3.060  30.395 -13.080  1.00 44.65           C  
+ATOM     31  OE1 GLU B 116       3.941  29.558 -13.358  1.00 53.75           O  
+ATOM     32  OE2 GLU B 116       2.196  30.779 -13.896  1.00 38.32           O1-
+TER   
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    4    5
+CONECT    4    3
+CONECT    5    3    6    7
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    8    7   13
+CONECT    9    7   10   11
+CONECT   10    1    9
+CONECT   11    9   12
+CONECT   12   11
+CONECT   13    8   14   21
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   13   20
+CONECT   22   20   23
+CONECT   23   22
+END
